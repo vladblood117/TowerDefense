@@ -17,6 +17,11 @@ public class Handler : MonoBehaviour
         BasicBuildingPanel.SetActive(!BasicBuildingPanel.activeSelf);
     }
 
+    public void CloseAllPanels()
+    {
+        BasicBuildingPanel.SetActive(false);
+    }
+
 
     // Update is called once per frame
     void Update()
