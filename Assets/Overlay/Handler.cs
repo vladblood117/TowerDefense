@@ -6,6 +6,7 @@ public class Handler : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private GameObject BasicBuildingPanel;
+    public static int ID = 5;
     void Start()
     {
 
