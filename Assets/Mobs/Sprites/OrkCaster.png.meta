@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: aa23dcc9363f0aa4f83ea1217652bcdc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7747763327967816391
+    second: OrkCaster_0
+  - first:
+      213: -5333285093755461685
+    second: OrkCaster_1
+  - first:
+      213: -4932166133002927332
+    second: OrkCaster_2
+  - first:
+      213: -4315411666691227619
+    second: OrkCaster_3
+  - first:
+      213: 2632219483731688023
+    second: OrkCaster_4
+  - first:
+      213: -4830740157292005270
+    second: OrkCaster_5
+  - first:
+      213: 4466758879263148361
+    second: OrkCaster_6
+  - first:
+      213: 778906354581247669
+    second: OrkCaster_7
+  - first:
+      213: 4439917065229018878
+    second: OrkCaster_8
+  - first:
+      213: -7479667237051064029
+    second: OrkCaster_9
+  - first:
+      213: -7466620128166450443
+    second: OrkCaster_10
+  - first:
+      213: -6336583077711755716
+    second: OrkCaster_11
+  - first:
+      213: 8422280794820019527
+    second: OrkCaster_12
+  - first:
+      213: 543193050155377502
+    second: OrkCaster_13
+  - first:
+      213: 5317820403304647012
+    second: OrkCaster_14
+  - first:
+      213: 4481803879333262682
+    second: OrkCaster_15
+  - first:
+      213: 5549089763563369639
+    second: OrkCaster_16
+  - first:
+      213: 2242575418425501964
+    second: OrkCaster_17
+  - first:
+      213: 1053225404205610298
+    second: OrkCaster_18
+  - first:
+      213: 5168573317048002213
+    second: OrkCaster_19
+  - first:
+      213: -2268763398261475768
+    second: OrkCaster_20
+  - first:
+      213: 2157010709649757632
+    second: OrkCaster_21
+  - first:
+      213: 5915455746234889094
+    second: OrkCaster_22
+  - first:
+      213: 8909613302530961016
+    second: OrkCaster_23
+  - first:
+      213: 3592372600188550826
+    second: OrkCaster_24
+  - first:
+      213: -4152752714266903473
+    second: OrkCaster_25
+  - first:
+      213: 1587087427568694075
+    second: OrkCaster_26
+  - first:
+      213: 5343948792093802617
+    second: OrkCaster_27
+  - first:
+      213: -3336980582936007030
+    second: OrkCaster_28
+  - first:
+      213: 4342387562173240077
+    second: OrkCaster_29
+  - first:
+      213: -2358167145764698533
+    second: OrkCaster_30
+  - first:
+      213: 7848697478497973146
+    second: OrkCaster_31
+  - first:
+      213: 8156675815160868809
+    second: OrkCaster_32
+  - first:
+      213: -7517796592043393630
+    second: OrkCaster_33
+  - first:
+      213: -2468056421426865056
+    second: OrkCaster_34
+  - first:
+      213: 4443350532787136328
+    second: OrkCaster_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OrkCaster_0
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 990
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cae15782b5958b60800000000000000
+      internalID: 7747763327967816391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_1
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 990
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfd1d4d67d5cf5b0800000000000000
+      internalID: -5333285093755461685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_2
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 989
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c130625a80d6d8bb0800000000000000
+      internalID: -4932166133002927332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_3
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 988
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d100b4304f39c14c0800000000000000
+      internalID: -4315411666691227619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_4
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 989
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a70b2aca5878420800000000000000
+      internalID: 2632219483731688023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_5
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 990
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68356adb63c5fcb0800000000000000
+      internalID: -4830740157292005270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_6
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 989
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9494dc7e88d1dfd30800000000000000
+      internalID: 4466758879263148361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_7
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 988
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b61c12e33b3fca00800000000000000
+      internalID: 778906354581247669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_8
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 989
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6ab211c01cd9d30800000000000000
+      internalID: 4439917065229018878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_9
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 925
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321a171e642e23890800000000000000
+      internalID: -7479667237051064029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_10
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 925
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa6bd3ad8c316890800000000000000
+      internalID: -7466620128166450443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_11
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 926
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c364d33734fef08a0800000000000000
+      internalID: -6336583077711755716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_12
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 926
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74587dd72c3f1e470800000000000000
+      internalID: 8422280794820019527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_13
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 925
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53e8fe733fc98700800000000000000
+      internalID: 543193050155377502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_14
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 925
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4694c465b71bcc940800000000000000
+      internalID: 5317820403304647012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_15
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 925
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5570a4f1e0923e30800000000000000
+      internalID: 4481803879333262682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_16
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 925
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a473f75db3520d40800000000000000
+      internalID: 5549089763563369639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_17
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 925
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09664d167a3f1f10800000000000000
+      internalID: 2242575418425501964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_18
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 861
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35b716cceecd9e00800000000000000
+      internalID: 1053225404205610298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_19
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 861
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6653e2c067ab740800000000000000
+      internalID: 5168573317048002213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_20
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 860
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846773fa5bbb380e0800000000000000
+      internalID: -2268763398261475768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_21
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 860
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c51365efcd3fed10800000000000000
+      internalID: 2157010709649757632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_22
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 860
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683bfd6e8abe71250800000000000000
+      internalID: 5915455746234889094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_23
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 861
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ee37fe71e45ab70800000000000000
+      internalID: 8909613302530961016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_24
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 860
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaeb51fb8dbaad130800000000000000
+      internalID: 3592372600188550826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_25
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 860
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cf41a98657e56c0800000000000000
+      internalID: -4152752714266903473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_26
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 860
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3378bb4b97760610800000000000000
+      internalID: 1587087427568694075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_27
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 797
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97001aaec15892a40800000000000000
+      internalID: 5343948792093802617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_28
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 797
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e29b307d9a0b1d0800000000000000
+      internalID: -3336980582936007030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_29
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 798
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0319681b72434c30800000000000000
+      internalID: 4342387562173240077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_30
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 798
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56c2bb997b164fd0800000000000000
+      internalID: -2358167145764698533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_31
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 797
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a933063c5cc2cec60800000000000000
+      internalID: 7848697478497973146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_32
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 797
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfeeae1075523170800000000000000
+      internalID: 8156675815160868809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_33
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 797
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad7c9d94db6ba790800000000000000
+      internalID: -7517796592043393630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_34
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 797
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cda33d2c3bfbdd0800000000000000
+      internalID: -2468056421426865056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OrkCaster_35
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 797
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847e15784c3f9ad30800000000000000
+      internalID: 4443350532787136328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
