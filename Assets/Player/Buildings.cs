@@ -85,7 +85,10 @@ public class Buildings : MonoBehaviour
         {
             var v = Instantiate(BuildingButton);
             var btn = v.transform.GetChild(0).GetComponent<Button>();
+
             var builder = AllBuildings.Buildings[_allowedBuildings[i]];
+            var img = btn.GetComponent<Image>();
+            img.sprite = builder.gameObject.GetComponent<SpriteRenderer>().sprite;
             btn.onClick.AddListener(() => Test(builder));
             v.transform.SetParent(ContentGui.transform);
             v.transform.localScale = new Vector3(1, 1, 1);
