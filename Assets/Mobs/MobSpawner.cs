@@ -24,7 +24,7 @@ public class MobSpawner : MonoBehaviour
         {
             deltaTime = 0;
             GameObject spawn = (GameObject)Instantiate(Spawns[0]) as GameObject;
-            spawn.transform.position = this.transform.position;
+            spawn.transform.position = new Vector3(spawn.transform.position.x, spawn.transform.position.y, 0);
             spawn.transform.parent = this.gameObject.transform;
         }
     }
