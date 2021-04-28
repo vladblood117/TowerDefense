@@ -35,13 +35,18 @@ public class Buildings : MonoBehaviour
         var colGap = .1f;
         var baseX = -ContentGui.transform.localScale.x;
         var baseY = -ContentGui.transform.localScale.y;
-        for (int i = 0; i < _allowedBuildings.Count; i++)
+        print("Base X/Y");
+        print(baseX);
+        print(baseY);
+        for (int i = 1; i <= _allowedBuildings.Count; i++)
         {
             var v = Instantiate(BuildingButton);
             v.transform.SetParent(ContentGui.transform);
+            print("Local scale x");
+            print(v.transform.localScale.x);
             v.transform.localPosition = new Vector3(
-                ((baseX + (v.transform.localScale.x * 2) * column)) + colGap,
-                ((baseY + (v.transform.localScale.y * 2) * row)) + rowGap,
+                ((baseX + (v.transform.localScale.x) * column)) + colGap,
+                ((baseY + (v.transform.localScale.y) * row)) + rowGap,
                 0
             );
             column++;
