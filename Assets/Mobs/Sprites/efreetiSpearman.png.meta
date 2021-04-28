@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: b3accdcfa38159545ba6225467c697f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -110591375035761266
+    second: efreetiSpearman_0
+  - first:
+      213: -1390540176984102712
+    second: efreetiSpearman_1
+  - first:
+      213: 1903985633106390407
+    second: efreetiSpearman_2
+  - first:
+      213: -504153509945054972
+    second: efreetiSpearman_3
+  - first:
+      213: 3656108512492338203
+    second: efreetiSpearman_4
+  - first:
+      213: 288273500737885284
+    second: efreetiSpearman_5
+  - first:
+      213: 1190912977778337297
+    second: efreetiSpearman_6
+  - first:
+      213: -6293627206131449605
+    second: efreetiSpearman_7
+  - first:
+      213: 2070740926629896402
+    second: efreetiSpearman_8
+  - first:
+      213: -3306126123238663363
+    second: efreetiSpearman_9
+  - first:
+      213: -1312992796337155500
+    second: efreetiSpearman_10
+  - first:
+      213: 4134828962214451034
+    second: efreetiSpearman_11
+  - first:
+      213: 206218696228661642
+    second: efreetiSpearman_12
+  - first:
+      213: -9192812471976400572
+    second: efreetiSpearman_13
+  - first:
+      213: 5942319411326475045
+    second: efreetiSpearman_14
+  - first:
+      213: 6980235476445263193
+    second: efreetiSpearman_15
+  - first:
+      213: 1899345882915268434
+    second: efreetiSpearman_16
+  - first:
+      213: 2845264599307664886
+    second: efreetiSpearman_17
+  - first:
+      213: -2525356906293576277
+    second: efreetiSpearman_18
+  - first:
+      213: 4836675741914611314
+    second: efreetiSpearman_19
+  - first:
+      213: -2001972021707855498
+    second: efreetiSpearman_20
+  - first:
+      213: 6013212595380369085
+    second: efreetiSpearman_21
+  - first:
+      213: -806032645709675753
+    second: efreetiSpearman_22
+  - first:
+      213: 3438646889181722152
+    second: efreetiSpearman_23
+  - first:
+      213: -934523036479676451
+    second: efreetiSpearman_24
+  - first:
+      213: -4233860894769758736
+    second: efreetiSpearman_25
+  - first:
+      213: -1703475252261003720
+    second: efreetiSpearman_26
+  - first:
+      213: -1775474684771243919
+    second: efreetiSpearman_27
+  - first:
+      213: -3218201322247188213
+    second: efreetiSpearman_28
+  - first:
+      213: -4128074163244571259
+    second: efreetiSpearman_29
+  - first:
+      213: 3812440530185015901
+    second: efreetiSpearman_30
+  - first:
+      213: 1813526809126981783
+    second: efreetiSpearman_31
+  - first:
+      213: 4041507896269467628
+    second: efreetiSpearman_32
+  - first:
+      213: -1670153855230932919
+    second: efreetiSpearman_33
+  - first:
+      213: -8770896952063960589
+    second: efreetiSpearman_34
+  - first:
+      213: 8646952770968609335
+    second: efreetiSpearman_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: efreetiSpearman_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1005
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d75c7fab9177ef0800000000000000
+      internalID: -110591375035761266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1005
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c824f0931fc3bce0800000000000000
+      internalID: -1390540176984102712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1004
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78de0c678d05c6a10800000000000000
+      internalID: 1903985633106390407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1003
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4096577cd03e009f0800000000000000
+      internalID: -504153509945054972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1004
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c336b325b1db230800000000000000
+      internalID: 3656108512492338203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1005
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464d3a9b837200400800000000000000
+      internalID: 288273500737885284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_6
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1004
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11661e62b09f68010800000000000000
+      internalID: 1190912977778337297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_7
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1003
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf00dcda66b88a8a0800000000000000
+      internalID: -6293627206131449605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1004
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d063a9c6efbcbc10800000000000000
+      internalID: 2070740926629896402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 939
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b58b9bec74e12d0800000000000000
+      internalID: -3306126123238663363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 940
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4525dad120057cde0800000000000000
+      internalID: -1312992796337155500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 941
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a571acba80dd16930800000000000000
+      internalID: 4134828962214451034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_12
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 941
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89e0c6cfc2acd200800000000000000
+      internalID: 206218696228661642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_13
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 940
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449e01923c19c6080800000000000000
+      internalID: -9192812471976400572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_14
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 940
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bd506550c577250800000000000000
+      internalID: 5942319411326475045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_15
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 940
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9557916de27ced060800000000000000
+      internalID: 6980235476445263193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_16
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 940
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257e3c07405db5a10800000000000000
+      internalID: 1899345882915268434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_17
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 940
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd3ab504196c7720800000000000000
+      internalID: 2845264599307664886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_18
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 874
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badba4d064124fcd0800000000000000
+      internalID: -2525356906293576277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 874
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27eb19226f25f1340800000000000000
+      internalID: 4836675741914611314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_20
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 875
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67925db9d019734e0800000000000000
+      internalID: -2001972021707855498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 875
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db63d820ff8337350800000000000000
+      internalID: 6013212595380369085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_22
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 874
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7134b1b449560d4f0800000000000000
+      internalID: -806032645709675753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_23
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 874
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826bda1802788bf20800000000000000
+      internalID: 3438646889181722152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_24
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 875
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf9538ef38e703f0800000000000000
+      internalID: -934523036479676451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_25
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 875
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdb4dab2fd4e35c0800000000000000
+      internalID: -4233860894769758736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_26
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 874
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e5051984a0c58e0800000000000000
+      internalID: -1703475252261003720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 811
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178e28a5e2f3c57e0800000000000000
+      internalID: -1775474684771243919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_28
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 812
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0193cbb2f6a653d0800000000000000
+      internalID: -3218201322247188213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_29
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 813
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585e6558b6226b6c0800000000000000
+      internalID: -4128074163244571259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_30
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 813
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52daf8867288e430800000000000000
+      internalID: 3812440530185015901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_31
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 812
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79059a04601fa2910800000000000000
+      internalID: 1813526809126981783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_32
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 812
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefe312d402561830800000000000000
+      internalID: 4041507896269467628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_33
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 812
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94806b2eaeb62d8e0800000000000000
+      internalID: -1670153855230932919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_34
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 812
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9dbaa31b3874680800000000000000
+      internalID: -8770896952063960589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiSpearman_35
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 812
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732e92f4bb5200870800000000000000
+      internalID: 8646952770968609335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

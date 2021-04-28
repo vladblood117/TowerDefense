@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 73c567560991bd04aa33bd29fafb6940
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8516942683866966897
+    second: FireWarrior_0
+  - first:
+      213: -8478639213833735018
+    second: FireWarrior_1
+  - first:
+      213: -6550508260925398415
+    second: FireWarrior_2
+  - first:
+      213: -8179476801036999785
+    second: FireWarrior_3
+  - first:
+      213: 1689386348769968755
+    second: FireWarrior_4
+  - first:
+      213: 4766513658146941345
+    second: FireWarrior_5
+  - first:
+      213: 1927337079870006548
+    second: FireWarrior_6
+  - first:
+      213: -3018258098700704446
+    second: FireWarrior_7
+  - first:
+      213: -7161048654839500542
+    second: FireWarrior_8
+  - first:
+      213: -1583983347515314848
+    second: FireWarrior_9
+  - first:
+      213: 1408613499292136282
+    second: FireWarrior_10
+  - first:
+      213: -1341058953188237036
+    second: FireWarrior_11
+  - first:
+      213: 6667645650685597484
+    second: FireWarrior_12
+  - first:
+      213: 2526737882032296387
+    second: FireWarrior_13
+  - first:
+      213: -8266975070048855928
+    second: FireWarrior_14
+  - first:
+      213: 913060938903949872
+    second: FireWarrior_15
+  - first:
+      213: 6575852442658672382
+    second: FireWarrior_16
+  - first:
+      213: -3113582854416244981
+    second: FireWarrior_17
+  - first:
+      213: 5704864635780752726
+    second: FireWarrior_18
+  - first:
+      213: -2711812191700745719
+    second: FireWarrior_19
+  - first:
+      213: 8683809221484181467
+    second: FireWarrior_20
+  - first:
+      213: 2552049448399211706
+    second: FireWarrior_21
+  - first:
+      213: -3516858769650964440
+    second: FireWarrior_22
+  - first:
+      213: 1362396632160442754
+    second: FireWarrior_23
+  - first:
+      213: 7929719380290782342
+    second: FireWarrior_24
+  - first:
+      213: 9022051494115014810
+    second: FireWarrior_25
+  - first:
+      213: -5672097722448764683
+    second: FireWarrior_26
+  - first:
+      213: 9019739409816957281
+    second: FireWarrior_27
+  - first:
+      213: 1958436276827091581
+    second: FireWarrior_28
+  - first:
+      213: -2367492887114298563
+    second: FireWarrior_29
+  - first:
+      213: -8423161782793158080
+    second: FireWarrior_30
+  - first:
+      213: 3956684055729791363
+    second: FireWarrior_31
+  - first:
+      213: -2981992889524793745
+    second: FireWarrior_32
+  - first:
+      213: 498394756242798595
+    second: FireWarrior_33
+  - first:
+      213: -6973905724662044171
+    second: FireWarrior_34
+  - first:
+      213: -6216613520309445296
+    second: FireWarrior_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireWarrior_0
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 522
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f845fb3f0cdbdc980800000000000000
+      internalID: -8516942683866966897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_1
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 522
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6943eb88e82d55a80800000000000000
+      internalID: -8478639213833735018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_2
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 521
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172a749517be715a0800000000000000
+      internalID: -6550508260925398415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_3
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 520
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79324a9af29ac7e80800000000000000
+      internalID: -8179476801036999785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_4
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 521
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37204d6fee7e17710800000000000000
+      internalID: 1689386348769968755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_5
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 522
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a965e20bee062240800000000000000
+      internalID: 4766513658146941345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_6
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 521
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4152718dcd64fba10800000000000000
+      internalID: 1927337079870006548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_7
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 520
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245af7a204efc16d0800000000000000
+      internalID: -3018258098700704446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_8
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 521
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201b0057038de9c90800000000000000
+      internalID: -7161048654839500542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_9
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 457
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d2739a98f840ae0800000000000000
+      internalID: -1583983347515314848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_10
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 457
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53b023b3866c8310800000000000000
+      internalID: 1408613499292136282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_11
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 458
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411ab50ccf9936de0800000000000000
+      internalID: -1341058953188237036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_12
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 458
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c271b41846c388c50800000000000000
+      internalID: 6667645650685597484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_13
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 457
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1de0b67b6c01320800000000000000
+      internalID: 2526737882032296387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_14
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 457
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8885abe59fdc54d80800000000000000
+      internalID: -8266975070048855928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_15
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 457
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03297a91618dbac00800000000000000
+      internalID: 913060938903949872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_16
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 457
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe0e0cc4fe124b50800000000000000
+      internalID: 6575852442658672382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_17
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 457
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fd5cfe3e45ac4d0800000000000000
+      internalID: -3113582854416244981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_18
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 393
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655666b1920cb2f40800000000000000
+      internalID: 5704864635780752726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_19
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 393
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9028a10fd25bd5ad0800000000000000
+      internalID: -2711812191700745719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_20
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 392
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd773d76a76138870800000000000000
+      internalID: 8683809221484181467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_21
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 392
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc0115b373ba6320800000000000000
+      internalID: 2552049448399211706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 392
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828acb5059b913fc0800000000000000
+      internalID: -3516858769650964440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_23
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 393
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2899c17c48438e210800000000000000
+      internalID: 1362396632160442754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_24
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 392
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68443ce43c50c0e60800000000000000
+      internalID: 7929719380290782342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_25
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 392
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98f1047804c43d70800000000000000
+      internalID: 9022051494115014810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_26
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 392
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0a32a6c29a841b0800000000000000
+      internalID: -5672097722448764683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_27
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 329
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1613bb0643d8c2d70800000000000000
+      internalID: 9019739409816957281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_28
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 329
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d727483ea63cd2b10800000000000000
+      internalID: 1958436276827091581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_29
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 330
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bc94f33c9f42fd0800000000000000
+      internalID: -2367492887114298563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_30
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 330
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042c7f28cfaea1b80800000000000000
+      internalID: -8423161782793158080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_31
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 329
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381e93e6f27f8e630800000000000000
+      internalID: 3956684055729791363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_32
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 329
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e42292445dd96d0800000000000000
+      internalID: -2981992889524793745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_33
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 329
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308f4c3e367aae600800000000000000
+      internalID: 498394756242798595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_34
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 329
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9a47851b5b73f90800000000000000
+      internalID: -6973905724662044171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireWarrior_35
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 329
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d9018b0f62ab9a0800000000000000
+      internalID: -6216613520309445296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

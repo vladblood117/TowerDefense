@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: d37d2df4511dead44837f4a170624d30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1827974550992993645
+    second: Stoneman_0
+  - first:
+      213: 185112737599311898
+    second: Stoneman_1
+  - first:
+      213: 2830780387350193520
+    second: Stoneman_2
+  - first:
+      213: 2126367070215333009
+    second: Stoneman_3
+  - first:
+      213: 1757906422800560733
+    second: Stoneman_4
+  - first:
+      213: 8920478557103204030
+    second: Stoneman_5
+  - first:
+      213: -2682484021691824859
+    second: Stoneman_6
+  - first:
+      213: 932923140785913010
+    second: Stoneman_7
+  - first:
+      213: 167463015025640171
+    second: Stoneman_8
+  - first:
+      213: -5143442718587310929
+    second: Stoneman_9
+  - first:
+      213: -3977898880213239337
+    second: Stoneman_10
+  - first:
+      213: 7213782789654927373
+    second: Stoneman_11
+  - first:
+      213: -8955394409146116116
+    second: Stoneman_12
+  - first:
+      213: -2696998443859769124
+    second: Stoneman_13
+  - first:
+      213: 2727904202328707974
+    second: Stoneman_14
+  - first:
+      213: 7483280002488278294
+    second: Stoneman_15
+  - first:
+      213: 6943463499990512126
+    second: Stoneman_16
+  - first:
+      213: -6930247183087002437
+    second: Stoneman_17
+  - first:
+      213: -6482640267051858744
+    second: Stoneman_18
+  - first:
+      213: 1495990143117131761
+    second: Stoneman_19
+  - first:
+      213: 8131137995544248456
+    second: Stoneman_20
+  - first:
+      213: -7006950960454552945
+    second: Stoneman_21
+  - first:
+      213: -4603149214686449019
+    second: Stoneman_22
+  - first:
+      213: -4856652410751947850
+    second: Stoneman_23
+  - first:
+      213: -4437343714608190209
+    second: Stoneman_24
+  - first:
+      213: -7608989814904165216
+    second: Stoneman_25
+  - first:
+      213: -1464604610115464458
+    second: Stoneman_26
+  - first:
+      213: -7316988427229086643
+    second: Stoneman_27
+  - first:
+      213: 7206514001212075467
+    second: Stoneman_28
+  - first:
+      213: -4994909767387987720
+    second: Stoneman_29
+  - first:
+      213: 1423307461894251808
+    second: Stoneman_30
+  - first:
+      213: 1216445381421580693
+    second: Stoneman_31
+  - first:
+      213: -962849688522011591
+    second: Stoneman_32
+  - first:
+      213: -5403554490843807307
+    second: Stoneman_33
+  - first:
+      213: -3476714729554067344
+    second: Stoneman_34
+  - first:
+      213: -2896607531937791613
+    second: Stoneman_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stoneman_0
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 695
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392cb95b4dab1a6e0800000000000000
+      internalID: -1827974550992993645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_1
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 695
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10d108dd07a19200800000000000000
+      internalID: 185112737599311898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_2
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 694
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075a621a3c3f84720800000000000000
+      internalID: 2830780387350193520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_3
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 693
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194e54a959f528d10800000000000000
+      internalID: 2126367070215333009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_4
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 694
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52b767e396556810800000000000000
+      internalID: 1757906422800560733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_5
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 695
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb620a62cf7ebcb70800000000000000
+      internalID: 8920478557103204030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_6
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 694
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525c563aef6e5cad0800000000000000
+      internalID: -2682484021691824859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_7
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 693
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc394957a862fc00800000000000000
+      internalID: 932923140785913010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_8
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 694
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be28e9399b2f25200800000000000000
+      internalID: 167463015025640171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_9
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 630
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faca80c3912de98b0800000000000000
+      internalID: -5143442718587310929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_10
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 630
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d937745b0aabc8c0800000000000000
+      internalID: -3977898880213239337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_11
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 631
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0855381a318c1460800000000000000
+      internalID: 7213782789654927373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_12
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 631
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7935b8b3c08b380800000000000000
+      internalID: -8955394409146116116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_13
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 630
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd805f16436529ad0800000000000000
+      internalID: -2696998443859769124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_14
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 630
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68319114b667bd520800000000000000
+      internalID: 2727904202328707974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_15
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 630
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d191f9383f9d760800000000000000
+      internalID: 7483280002488278294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_16
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 630
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef133d3e3432c5060800000000000000
+      internalID: 6943463499990512126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_17
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 630
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc927ea7e0d2df90800000000000000
+      internalID: -6930247183087002437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_18
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 566
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c40bbb06090906a0800000000000000
+      internalID: -6482640267051858744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_19
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 566
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff7bfbeb13d2c410800000000000000
+      internalID: 1495990143117131761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_20
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 565
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880c8142dea97d070800000000000000
+      internalID: 8131137995544248456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_21
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 565
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f823683d93f42ce90800000000000000
+      internalID: -7006950960454552945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_22
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 565
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582fe728d245e10c0800000000000000
+      internalID: -4603149214686449019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_23
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 566
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbe5933d54b99cb0800000000000000
+      internalID: -4856652410751947850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_24
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 565
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc6770d6636b62c0800000000000000
+      internalID: -4437343714608190209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_25
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 565
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac6217d310776690800000000000000
+      internalID: -7608989814904165216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_26
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 565
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f21badedddacabe0800000000000000
+      internalID: -1464604610115464458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_27
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 502
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cbd51eac5d47a90800000000000000
+      internalID: -7316988427229086643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_28
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 502
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdef176d4ea20460800000000000000
+      internalID: 7206514001212075467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_29
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 503
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0c5bdd7048eaab0800000000000000
+      internalID: -4994909767387987720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_30
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 503
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025ae58789a90c310800000000000000
+      internalID: 1423307461894251808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_31
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 502
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5914c4021aea1e010800000000000000
+      internalID: 1216445381421580693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_32
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 502
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ccc874f4543a2f0800000000000000
+      internalID: -962849688522011591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_33
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 502
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1c9c0e1d7b205b0800000000000000
+      internalID: -5403554490843807307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_34
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 502
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070cf87bf5a30cfc0800000000000000
+      internalID: -3476714729554067344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneman_35
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 502
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381802debce2dc7d0800000000000000
+      internalID: -2896607531937791613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
