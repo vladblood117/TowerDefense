@@ -22,10 +22,10 @@ public class MobSpawner : MonoBehaviour
         deltaTime += Time.deltaTime;
         if (deltaTime >= SpawnRate)
         {
-            deltaTime = 0;
+            deltaTime = 0f;
             GameObject spawn = (GameObject)Instantiate(Spawns[0]) as GameObject;
-            spawn.transform.position = new Vector3(spawn.transform.position.x, spawn.transform.position.y, 0);
             spawn.transform.parent = this.gameObject.transform;
+            spawn.transform.localPosition = Vector3.zero;
         }
     }
 }

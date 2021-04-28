@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2585273001932421048}
   - component: {fileID: 7185292773382925593}
   m_Layer: 3
-  m_Name: Slimer
+  m_Name: HumanoidMob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 1920397813583471676}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.72, y: 4.57, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 5256a56113ac2b444935eed4a8235254, type: 3}
+  m_Sprite: {fileID: 1937178388647571709, guid: 8a5759f6a2ba74c4584d9501ad3993d2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -113,10 +113,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04b976704d031b2439c6d15ccb32b34d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MobName: Slimer
+  MobName: IceMan
   MoveSpeed: 40
   Damage: 10
-  MaxSpeed: 1
+  MaxSpeed: 2
   MinSpeed: 0.5
   speed: 100
   nextWaypointDistance: 3
@@ -213,7 +213,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.15268135
+  m_Mass: 0.6107254
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1

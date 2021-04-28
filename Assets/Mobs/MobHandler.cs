@@ -14,9 +14,12 @@ public class MobHandler : MonoBehaviour
     private Rigidbody2D body;
     private BoxCollider2D _collider;
 
+    [SerializeField] public float MaxSpeed;
+    [SerializeField] public float MinSpeed;
+
     private GameObject killObject;
     private Seeker _seeker;
-
+    private AIPath _pathAI;
     public static Dictionary<int, GameObject> Creatures = new Dictionary<int, GameObject>();
     public static int CreatureId = 0;
 
@@ -48,11 +51,13 @@ public class MobHandler : MonoBehaviour
         _health = gameObject.GetComponent<HealthHandler>();
         _method = DeathMethod;
         _health.RegisterDeathMethod(_method);
+        _pathAI = gameObject.GetComponent<AIPath>();
         killObject = GameObject.FindGameObjectWithTag("Defend");
         body = gameObject.GetComponent<Rigidbody2D>();
         _seeker = gameObject.GetComponent<Seeker>();
         scanIndex = Structures.currentScan;
         direction = 0;
+        _pathAI.maxSpeed = Random.Range(MinSpeed, MaxSpeed);
         _seeker.StartPath(transform.position, killObject.transform.position, OnPathComplete);
     }
     private void DeathMethod()

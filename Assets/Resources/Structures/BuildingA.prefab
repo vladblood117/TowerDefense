@@ -100,7 +100,7 @@ MonoBehaviour:
   SID: 1
   StructureName: Building Alpha
   Description: A Wall of blocking
-  GoldCost: 10
+  GoldCost: 1
   CanAttack: 0
   Damage: 0
   Range: 0

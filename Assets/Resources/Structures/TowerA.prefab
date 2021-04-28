@@ -113,7 +113,7 @@ MonoBehaviour:
   SID: 2
   StructureName: Tower A
   Description: 
-  GoldCost: 5
+  GoldCost: 10
   CanAttack: 1
   Damage: 10
   Range: 5

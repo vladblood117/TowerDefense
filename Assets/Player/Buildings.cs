@@ -31,7 +31,6 @@ public class Buildings : MonoBehaviour
         var mouse = Mouse.current;
         if (_follow)
         {
-            print("Following");
             Vector3 pos = Camera.main.ScreenToWorldPoint((Vector3)mouse.position.ReadValue() + (Vector3.forward * 10));
             _build.gameObject.transform.position = pos;
             var sr = _build.gameObject.GetComponent<SpriteRenderer>();
@@ -52,7 +51,7 @@ public class Buildings : MonoBehaviour
                 if (hover)
                 {
 
-                    _plr.Currency.RemoveGold(10);
+                    _plr.Currency.RemoveGold(_build.GoldCost);
                     _build.PlaceStructure(vci);
                     _follow = false;
                     _build = null;
@@ -65,7 +64,6 @@ public class Buildings : MonoBehaviour
     }
     public void Test(Structures obj)
     {
-        print("I'm coding mom!");
         if (_plr.Currency.Gold >= obj.GoldCost)
         {
             _build = Structures.NewStructure(obj);
