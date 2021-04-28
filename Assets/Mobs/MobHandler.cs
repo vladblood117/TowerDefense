@@ -17,51 +17,32 @@ public class MobHandler : MonoBehaviour
     private GameObject killObject;
     private Seeker _seeker;
 
-    public static Dictionary<int, GameObject> Creatures = new Dictionary<int, GameObject>();
-    public static int CreatureId = 0;
-
     //The AI's speed per second
     public float speed = 100;
     //The max distance from the AI to a waypoint for it to continue to the next waypoint
     public float nextWaypointDistance = 3;
     //The waypoint we are currently moving towards
     private int currentWaypoint = 0;
-    public HealthHandler.OnDeath _method;
     public float repathRate = 0.5f;
     private float lastRepath = -9999;
     private float delta = 0f;
-    private int status;
-    //0 = pathing, 1 = attacking
     private Path path;
     private int scanIndex = 0;
     private int direction;
-    private GameObject targetAttack;
-    private HealthHandler _health;
-    private bool debounce = false;
-    private int myCID;
     void Start()
     {
-        status = 0;
-        myCID = CreatureId + 1;
-        CreatureId++;
-        Creatures[myCID] = gameObject;
-        _health = gameObject.GetComponent<HealthHandler>();
-        _method = DeathMethod;
-        _health.RegisterDeathMethod(_method);
         killObject = GameObject.FindGameObjectWithTag("Defend");
         body = gameObject.GetComponent<Rigidbody2D>();
         _seeker = gameObject.GetComponent<Seeker>();
+        // _seeker.pathCallback = OnPathComplete;
+        // AIDestinationSetter aids = GetComponent<AIDestinationSetter>();
+        //  aids.target = killObject.transform;
         scanIndex = Structures.currentScan;
+        print(killObject.transform.position);
         direction = 0;
         _seeker.StartPath(transform.position, killObject.transform.position, OnPathComplete);
     }
-    private void DeathMethod()
-    {
 
-        Creatures.Remove(myCID);
-        Destroy(gameObject);
-
-    }
     public void OnPathComplete(Path p)
     {
         p.Claim(this);
@@ -86,52 +67,25 @@ public class MobHandler : MonoBehaviour
     {
         if (Structures.currentScan > scanIndex)
         {
+            print("Rescan processed, update!");
             _seeker.StartPath(transform.position, killObject.transform.position, OnPathComplete);
             scanIndex = Structures.currentScan;
-            targetAttack = null;
-            status = 0;
         }
         delta += Time.deltaTime;
-        switch (status)
+        if (delta >= 1f)
         {
-            case 0:
-                if (delta >= 1f)
-                {
-                    delta = 0f;
-                    GraphNode node1 = AstarPath.active.GetNearest(transform.position, NNConstraint.Default).node;
-                    GraphNode node2 = AstarPath.active.GetNearest(killObject.transform.position, NNConstraint.Default).node;
-                    if (!PathUtilities.IsPathPossible(node1, node2))
-                    {
-                        status = 1;
-                        delta = 0f;
-                    }
-                }
-
-                break;
-            case 1:
-                if (!debounce)
-                {
-                    debounce = true;
-                    if (body.velocity == Vector2.zero)
-                    {
-                        if (targetAttack == null)
-                        {
-                            targetAttack = Structures.GetNearest(transform.position);
-                            delta = 0f;
-
-                        }
-                        if (targetAttack != null && delta >= 1f)
-                        {
-                            HealthHandler _health = targetAttack.GetComponent<HealthHandler>();
-                            _health.TakeDamage(Damage);
-                            delta = 0f;
-                        }
-
-                    }
-                    debounce = false;
-                }
-                break;
-
+            delta = 0f;
+            GraphNode node1 = AstarPath.active.GetNearest(transform.position, NNConstraint.Default).node;
+            GraphNode node2 = AstarPath.active.GetNearest(killObject.transform.position, NNConstraint.Default).node;
+            if (!PathUtilities.IsPathPossible(node1, node2))
+            {
+                Structures.MobDestruction();
+                print("Path not possible");
+            }
+            else
+            {
+                print("Path possible?");
+            }
         }
     }
 }

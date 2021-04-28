@@ -8,9 +8,6 @@ public class HealthHandler : MonoBehaviour
     public static int ID = 9;
     [SerializeField] public int MaxHealth;
 
-    public delegate void OnDeath();
-    public OnDeath m_methodToCall;
-
     private int _health;
     public int CurrentHealth { get { return _health; } }
     void Start()
@@ -24,19 +21,14 @@ public class HealthHandler : MonoBehaviour
 
     }
 
-    public void RegisterDeathMethod(OnDeath m)
-    {
-        m_methodToCall = m;
-    }
-
     public void TakeDamage(int damage)
     {
         print("Taking damage");
         _health -= damage;
         if (_health <= 0)
         {
-            m_methodToCall();
-
+            Destroy(gameObject);
+            print("Destroyed!");
         }
     }
 
