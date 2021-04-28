@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class PlayerHandler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private GameObject plrObj;
-    private Currency currency;
-
-    public static int ID = 2;
-    public Currency Currency { get { return currency; } }
+    // Start is called before the first frame update 
+    private Currency _currency;
+    private Handler _overlay;
+    public Currency Currency { get { return _currency; } }
     void Start()
     {
-        plrObj = this.gameObject;
-        currency = plrObj.GetComponent<Currency>();
+        _currency = gameObject.GetComponent<Currency>();
+        _overlay = gameObject.transform.GetChild(0).GetComponent<Handler>();
     }
 
     // Update is called once per frame

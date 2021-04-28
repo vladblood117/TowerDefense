@@ -3245,7 +3245,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 353123416}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Handler, Assembly-CSharp
         m_MethodName: OpenBasicPanel
         m_Mode: 1
@@ -3370,7 +3370,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2157fcd43fe4db1469599848fb040f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BasicBuildingPanel: {fileID: 2082749510}
 --- !u!114 &353123417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5358,7 +5357,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e926fb493e257284db30256faf59f77d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Follow: 0
+  build: {fileID: 0}
   Grid: {fileID: 118530154}
+  player: {fileID: 0}
 --- !u!4 &1288600804
 Transform:
   m_ObjectHideFlags: 0
