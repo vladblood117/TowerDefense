@@ -58,15 +58,15 @@ public class Structures : MonoBehaviour
 
     }
 
-    public static GameObject NewStructure(Object strut)
+    public static Structures NewStructure(Structures strut)
     {
-        GameObject obj = (GameObject)Instantiate(strut) as GameObject;
+        GameObject obj = (GameObject)Instantiate(strut.gameObject) as GameObject;
         var indx = StructureIndex + 1;
         StructureIndex++;
         collection[indx] = obj;
         var s = obj.GetComponent<Structures>();
         s.strutId = indx;
-        return obj;
+        return s;
     }
     public static GameObject GetNearest(Vector3 Position)
     {
@@ -84,13 +84,12 @@ public class Structures : MonoBehaviour
         return obj;
     }
 
-    public static void PlaceStructure(GameObject obj, Vector3Int vci)
+    public void PlaceStructure(Vector3Int vci)
     {
-        obj.transform.position = (Vector3)vci + new Vector3(0.5f, 0.5f, 0f);
+        transform.position = (Vector3)vci + new Vector3(0.5f, 0.5f, 0f);
         //  GridManager.APMap.SetTile(vci, null);
         //  GridManager.ObMap.SetTile(vci, (Tile)Resources.Load("Tilemap/TDBlank"));
-        Structures strut = obj.GetComponent<Structures>();
-        strut.StructurePlaced();
+        StructurePlaced();
     }
     //---------Dynamic Functions
     public void StructurePlaced()

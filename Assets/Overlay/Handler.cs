@@ -4,23 +4,25 @@ using UnityEngine;
 
 public class Handler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    [SerializeField] private GameObject BasicBuildingPanel;
+    private GameObject BasicBuildingPanel;
+    // Start is called before the first frame update 
     public static int ID = 5;
+    public static Handler Overlay;
     void Start()
     {
-
+        BasicBuildingPanel = gameObject.transform.GetChild(1).gameObject;
+        Overlay = this;
     }
 
-    public void OpenBasicPanel()
+    public static void OpenBasicPanel()
     {
 
-        BasicBuildingPanel.SetActive(!BasicBuildingPanel.activeSelf);
+        Overlay.BasicBuildingPanel.SetActive(!Overlay.BasicBuildingPanel.activeSelf);
     }
 
-    public void CloseAllPanels()
+    public static void CloseAllPanels()
     {
-        BasicBuildingPanel.SetActive(false);
+        Overlay.BasicBuildingPanel.SetActive(false);
     }
 
 
