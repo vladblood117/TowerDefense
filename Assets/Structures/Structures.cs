@@ -13,12 +13,15 @@ public class Structures : MonoBehaviour
     [SerializeField] public int GoldCost;
     [SerializeField] public bool CanAttack;
     //IF CanAttack
-    [SerializeField] public int Damage;
+    [SerializeField] public int MaxDamage;
+    [SerializeField] public int MinDamage;
     [SerializeField] public float Range;
     [SerializeField] public int AttackSpeed;
+    [SerializeField] public GameObject Shoots;
     //ENDIF
     public static int currentScan = 1;
-    public static Dictionary<int, GameObject> collection = new Dictionary<int, GameObject>();
+    public static Dictionary<int, Structures> collection = new Dictionary<int, Structures>();
+    public static Dictionary<Vector3Int, int> collectionMap = new Dictionary<Vector3Int, int>();
     private HealthHandler _health;
     private int strutId;
     private bool placed = false;
@@ -50,7 +53,7 @@ public class Structures : MonoBehaviour
     {
 
         var vci = Vector3Int.FloorToInt(transform.position);
-        //  GridManager.APMap.SetTile(vci, (Tile)Resources.Load("Tilemap/TDBlank"));
+        GridManager.APMap.SetTile(vci, (Tile)Resources.Load("Tilemap/TDBlank"));
         //  GridManager.ObMap.SetTile(vci, null);
         collection.Remove(strutId);
         Destroy(gameObject);
@@ -61,45 +64,67 @@ public class Structures : MonoBehaviour
     public static Structures NewStructure(Structures strut)
     {
         GameObject obj = (GameObject)Instantiate(strut.gameObject) as GameObject;
-        var indx = StructureIndex + 1;
-        StructureIndex++;
-        collection[indx] = obj;
+
         var s = obj.GetComponent<Structures>();
-        s.strutId = indx;
         return s;
     }
     public static GameObject GetNearest(Vector3 Position)
     {
         GameObject obj = null;
+        var distance = 0f;
         foreach (var v in collection.Values)
         {
-            if ((v.transform.position - Position).magnitude <= 1.5f)
+            if (v != null && v.placed)
             {
-                obj = v;
-                break;
-            }
 
+                if (obj != null)
+                {
+                    var magA = (v.gameObject.transform.position - Position).magnitude;
+                    var magB = (obj.transform.position - Position).magnitude;
+                    if (magA < magB)
+                    {
+                        obj = v.gameObject;
+                    }
+                }
+                var mag = (v.gameObject.transform.position - Position).magnitude;
+
+                if (mag <= 1.5f)
+                {
+
+                    obj = v.gameObject;
+                    distance = mag;
+                }
+            }
         }
 
         return obj;
     }
 
+    //---------Dynamic Functions
     public void PlaceStructure(Vector3Int vci)
     {
-        transform.position = (Vector3)vci + new Vector3(0.5f, 0.5f, 0f);
-        //  GridManager.APMap.SetTile(vci, null);
+        var clone = Instantiate(this.gameObject);
+        clone.transform.position = (Vector3)vci + new Vector3(0.5f, 0.5f, 0f);
+        GridManager.APMap.SetTile(vci, null);
         //  GridManager.ObMap.SetTile(vci, (Tile)Resources.Load("Tilemap/TDBlank"));
-        StructurePlaced();
-    }
-    //---------Dynamic Functions
-    public void StructurePlaced()
-    {
+        var cthis = clone.GetComponent<Structures>();
 
-        this._collider.enabled = true;
-        placed = true;
-        StartCoroutine(RescanGraph());
+        if (cthis != null)
+        {
+            var indx = StructureIndex + 1;
+            StructureIndex++;
+            cthis.strutId = indx;
+            collection[indx] = cthis;
+            collectionMap[vci] = indx;
+            cthis.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+            cthis.placed = true;
+            StartCoroutine(RescanGraph());
+        }
+        else
+        {
+            Debug.Log("Not found!");
+        }
     }
-
     void Update()
     {
         if (CanAttack && placed)
@@ -114,21 +139,18 @@ public class Structures : MonoBehaviour
                     delta = 0f;
                     if (!_enemy)
                     {
-                        Debug.Log("Set enemy");
                         _enemy = getEnemy();
                     }
                     if (InRange(_enemy))
                     {
-                        Debug.Log("Enemy in range, attack!");
-                        Attack(_enemy);
+                        Attack();
                     }
                     else
                     {
-                        Debug.Log("They left range, find a new one and... attack!");
                         _enemy = getEnemy();
                         if (_enemy)
                         {
-                            Attack(_enemy);
+                            Attack();
                         }
 
                     }
@@ -155,15 +177,13 @@ public class Structures : MonoBehaviour
         return val;
     }
 
-    private void Attack(GameObject _enemy)
+    private void Attack()
     {
-        HealthHandler h = _enemy.GetComponent<HealthHandler>();
-        h.TakeDamage(Damage);
-        Debug.Log("pew pew!");
-        if (!_enemy)
-        {
-            Debug.Log("Enemy is dead");
-        }
+        var shoot = Instantiate(Shoots).GetComponent<Projectiles>();
+        shoot.transform.position = transform.position;
+        shoot.SetTarget(_enemy);
+        shoot.SetDamage(Random.Range(MinDamage, MaxDamage));
+        shoot.Fire();
     }
 
     private GameObject getEnemy()
@@ -177,10 +197,8 @@ public class Structures : MonoBehaviour
                 if (mag <= Range)
                 {
                     enemy = v;
-                    if (mag <= 3f)
-                    {
-                        break;
-                    }
+
+                    break;
                 }
             }
         }

@@ -91,6 +91,7 @@ public class MobHandler : MonoBehaviour
     {
         if (Structures.currentScan > scanIndex)
         {
+            print("Repath!");
             _seeker.StartPath(transform.position, killObject.transform.position, OnPathComplete);
             scanIndex = Structures.currentScan;
             targetAttack = null;
@@ -100,18 +101,22 @@ public class MobHandler : MonoBehaviour
         switch (status)
         {
             case 0:
-                if (delta >= 1f)
+                if (!debounce)
                 {
-                    delta = 0f;
-                    GraphNode node1 = AstarPath.active.GetNearest(transform.position, NNConstraint.Default).node;
-                    GraphNode node2 = AstarPath.active.GetNearest(killObject.transform.position, NNConstraint.Default).node;
-                    if (!PathUtilities.IsPathPossible(node1, node2))
-                    {
-                        status = 1;
-                        delta = 0f;
-                    }
-                }
+                    debounce = true;
 
+                    if (delta >= 1f)
+                    {
+                        delta = 0f;
+                        GraphNode node1 = AstarPath.active.GetNearest(transform.position, NNConstraint.Default).node;
+                        GraphNode node2 = AstarPath.active.GetNearest(killObject.transform.position, NNConstraint.Default).node;
+                        if (!PathUtilities.IsPathPossible(node1, node2))
+                        {
+                            status = 1;
+                        }
+                    }
+                    debounce = false;
+                }
                 break;
             case 1:
                 if (!debounce)
@@ -122,7 +127,9 @@ public class MobHandler : MonoBehaviour
                         if (targetAttack == null)
                         {
                             targetAttack = Structures.GetNearest(transform.position);
+
                             delta = 0f;
+
 
                         }
                         if (targetAttack != null && delta >= 1f)
@@ -135,6 +142,8 @@ public class MobHandler : MonoBehaviour
                     }
                     debounce = false;
                 }
+                break;
+            default:
                 break;
 
         }

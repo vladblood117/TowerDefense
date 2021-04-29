@@ -115,9 +115,11 @@ MonoBehaviour:
   Description: 
   GoldCost: 10
   CanAttack: 1
-  Damage: 10
+  MaxDamage: 11
+  MinDamage: 7
   Range: 5
   AttackSpeed: 3
+  Shoots: {fileID: 3848133890290315295, guid: aa229dd96c03a1d44b4f11c9a8227bfe, type: 3}
 --- !u!61 &5116091485058563813
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -125,7 +127,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5116091485058563812}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0

@@ -37,10 +37,15 @@ public class Buildings : MonoBehaviour
             sr.sortingOrder = 1;
             var hover = false;
             Vector3Int vci = Vector3Int.FloorToInt(pos);
+
             if (GridManager.APMap.HasTile(vci))
             {
                 hover = GridManager.APMap.GetTile(vci);
                 sr.color = Color.white;
+            }
+            else if (Structures.collectionMap.ContainsKey(vci))
+            {
+                sr.color = Color.red;
             }
             else
             {
@@ -48,14 +53,28 @@ public class Buildings : MonoBehaviour
             }
             if (mouse.leftButton.wasPressedThisFrame)
             {
-                if (hover)
+                if (_plr.Currency.Gold <= _build.GoldCost)
+                {
+                    sr.color = Color.red;
+                }
+                else
                 {
 
-                    _plr.Currency.RemoveGold(_build.GoldCost);
-                    _build.PlaceStructure(vci);
-                    _follow = false;
-                    _build = null;
+                    sr.color = Color.white;
+                    if (hover)
+                    {
+
+                        _plr.Currency.RemoveGold(_build.GoldCost);
+                        _build.PlaceStructure(vci);
+                    }
                 }
+            }
+            else if (mouse.rightButton.wasPressedThisFrame)
+            {
+                print("Release!");
+                Destroy(_build.gameObject);
+                _build = null;
+                _follow = false;
             }
 
         }
