@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: d2cf85a7503ce0e4e9cb8cae2dcc7c10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8165013331200281943
+    second: DemonCaster_0
+  - first:
+      213: 7480163358398346665
+    second: DemonCaster_1
+  - first:
+      213: -9098724271631759973
+    second: DemonCaster_2
+  - first:
+      213: -1829596857076452525
+    second: DemonCaster_3
+  - first:
+      213: 7627108589052793127
+    second: DemonCaster_4
+  - first:
+      213: -6269937826654539018
+    second: DemonCaster_5
+  - first:
+      213: 4049946475861184434
+    second: DemonCaster_6
+  - first:
+      213: 4659450748624052272
+    second: DemonCaster_7
+  - first:
+      213: -3110565040915732492
+    second: DemonCaster_8
+  - first:
+      213: -6636585936086739979
+    second: DemonCaster_9
+  - first:
+      213: 4245249399953487923
+    second: DemonCaster_10
+  - first:
+      213: -6994494105803617230
+    second: DemonCaster_11
+  - first:
+      213: -3054870108758076997
+    second: DemonCaster_12
+  - first:
+      213: 6487722846930769500
+    second: DemonCaster_13
+  - first:
+      213: 8681787223407356590
+    second: DemonCaster_14
+  - first:
+      213: -5420290166850587778
+    second: DemonCaster_15
+  - first:
+      213: -707492112683828400
+    second: DemonCaster_16
+  - first:
+      213: -496355687315476528
+    second: DemonCaster_17
+  - first:
+      213: 4006677692450501071
+    second: DemonCaster_18
+  - first:
+      213: 3203253747814481155
+    second: DemonCaster_19
+  - first:
+      213: -7685684719121284377
+    second: DemonCaster_20
+  - first:
+      213: -4802083443807299593
+    second: DemonCaster_21
+  - first:
+      213: -8152696851960895593
+    second: DemonCaster_22
+  - first:
+      213: -3940745542010488267
+    second: DemonCaster_23
+  - first:
+      213: 7300911779853618760
+    second: DemonCaster_24
+  - first:
+      213: 5795907859333609130
+    second: DemonCaster_25
+  - first:
+      213: 4562002286588711625
+    second: DemonCaster_26
+  - first:
+      213: -1227057194549698577
+    second: DemonCaster_27
+  - first:
+      213: -422652814250749348
+    second: DemonCaster_28
+  - first:
+      213: -5576770573856251245
+    second: DemonCaster_29
+  - first:
+      213: 3679630620406766505
+    second: DemonCaster_30
+  - first:
+      213: -650414902616583678
+    second: DemonCaster_31
+  - first:
+      213: -2319646168665640520
+    second: DemonCaster_32
+  - first:
+      213: 7950576841021190789
+    second: DemonCaster_33
+  - first:
+      213: 5196006624179680015
+    second: DemonCaster_34
+  - first:
+      213: 5469941785272466004
+    second: DemonCaster_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DemonCaster_0
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 522
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a27a77a2ab00be80800000000000000
+      internalID: -8165013331200281943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_1
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 522
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5f93f51f0eec760800000000000000
+      internalID: 7480163358398346665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_2
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 521
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b950a286b76dab180800000000000000
+      internalID: -9098724271631759973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_3
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 520
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35379c32a57fb96e0800000000000000
+      internalID: -1829596857076452525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_4
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 521
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72192d10adee8d960800000000000000
+      internalID: 7627108589052793127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_5
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 522
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2b87624c4bcf8a0800000000000000
+      internalID: -6269937826654539018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_6
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 521
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf0d0dbcdc443830800000000000000
+      internalID: 4049946475861184434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_7
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 520
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0302a20e4c1b9a040800000000000000
+      internalID: 4659450748624052272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_8
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 521
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f72875639d05d4d0800000000000000
+      internalID: -3110565040915732492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_9
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 457
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f35236d04c16e3a0800000000000000
+      internalID: -6636585936086739979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_10
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 457
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338fa2346d72aea30800000000000000
+      internalID: 4245249399953487923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_11
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 458
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c03005ba09eee90800000000000000
+      internalID: -6994494105803617230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 458
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1148c42dbea95d0800000000000000
+      internalID: -3054870108758076997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_13
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 457
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c569e7c4e85090a50800000000000000
+      internalID: 6487722846930769500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_14
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 457
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa68ba4b77eb7870800000000000000
+      internalID: 8681787223407356590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_15
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 457
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73f359afc247c4b0800000000000000
+      internalID: -5420290166850587778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_16
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 457
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bf6160cab7e26f0800000000000000
+      internalID: -707492112683828400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_17
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 457
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfe057d1279c19f0800000000000000
+      internalID: -496355687315476528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_18
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 393
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc17efb02249a9730800000000000000
+      internalID: 4006677692450501071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_19
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 393
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dbbe3ef4e347c20800000000000000
+      internalID: 3203253747814481155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_20
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 392
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2c02de776f65590800000000000000
+      internalID: -7685684719121284377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_21
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 392
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7d416ec829b5db0800000000000000
+      internalID: -4802083443807299593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 392
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797ec61786dcbde80800000000000000
+      internalID: -8152696851960895593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_23
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 393
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ab24afec8af49c0800000000000000
+      internalID: -3940745542010488267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_24
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 392
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ec3a6f49c025560800000000000000
+      internalID: 7300911779853618760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_25
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 392
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa679727d733f6050800000000000000
+      internalID: 5795907859333609130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_26
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 392
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2d3acb8ec7f4f30800000000000000
+      internalID: 4562002286588711625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_27
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 329
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef17c79bfd98fee0800000000000000
+      internalID: -1227057194549698577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_28
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 329
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52d347318f622af0800000000000000
+      internalID: -422652814250749348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_29
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 330
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3926277c5b45b92b0800000000000000
+      internalID: -5576770573856251245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_30
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 330
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abdef1cd8ca01330800000000000000
+      internalID: 3679630620406766505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_31
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 329
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2021be4971349f6f0800000000000000
+      internalID: -650414902616583678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_32
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 329
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1b6108916fecfd0800000000000000
+      internalID: -2319646168665640520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_33
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 329
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582f380538f165e60800000000000000
+      internalID: 7950576841021190789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_34
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 329
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f037eccbe7ceb1840800000000000000
+      internalID: 5196006624179680015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonCaster_35
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 329
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a3b3d921329eb40800000000000000
+      internalID: 5469941785272466004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
