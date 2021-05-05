@@ -6,8 +6,34 @@ public abstract class TDSystem : MonoBehaviour
 {
 
     public static int ID = 1;
-    public interface IMTBehaviour
+
+    private float _childWait = 0f;
+    public interface ISystem
     {
-        int ClassID { get; }
+
+    }
+
+    public IEnumerator SetupChildWait()
+    {
+        Debug.Log("Perform a wait action");
+        yield return new WaitForSeconds(.1f);
+        _childWait += .1f;
+        Debug.Log("Waited for child");
+    }
+
+    public GameObject WaitForChild(GameObject parent, int id)
+    {
+        GameObject child = parent.transform.GetChild(id).gameObject;
+        if (child == null)
+        {
+            if (_childWait < 3f)
+            {
+                StartCoroutine(SetupChildWait());
+                child = parent.transform.GetChild(id).gameObject;
+
+            }
+        }
+        _childWait = 0f;
+        return child;
     }
 }

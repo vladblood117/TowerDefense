@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5116091485058563815}
   - component: {fileID: 5116091485058563814}
   - component: {fileID: 5116091485058563813}
+  - component: {fileID: 4030946375335845461}
   m_Layer: 6
   m_Name: TowerA
   m_TagString: Untagged
@@ -146,3 +147,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9092798, y: 1.0928403}
   m_EdgeRadius: 0
+--- !u!114 &4030946375335845461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5116091485058563812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc35dbb4042520a4b9787d5d66d3b634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionAsset: {fileID: -944628639613478452, guid: 63f93a27150710949a92002c5d37bb27, type: 3}

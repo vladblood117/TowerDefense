@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.InputSystem;
 
-public class Structures : MonoBehaviour
+public class Structures : TDSystem
 {
-    // Start is called before the first frame update
-    public static int ID = 3;
+    // Start is called before the first frame update 
+
     [SerializeField] public int SID;
     [SerializeField] public string StructureName;
     [SerializeField] public string Description;
@@ -31,7 +32,10 @@ public class Structures : MonoBehaviour
     private bool debounce;
     private float delta;
     private GameObject _enemy;
+    private Material _defaultMaterial;
+    public Material DefaultMaterial { get { return _defaultMaterial; } }
 
+    public bool IsPlaced { get { return placed; } }
     void Start()
     {
         debounce = false;
@@ -40,6 +44,7 @@ public class Structures : MonoBehaviour
         _method = DeathMethod;
         _health.RegisterDeathMethod(_method);
         _collider = this.gameObject.GetComponent<BoxCollider2D>();
+
     }
 
     IEnumerator RescanGraph()
@@ -101,6 +106,8 @@ public class Structures : MonoBehaviour
     }
 
     //---------Dynamic Functions
+
+
     public void PlaceStructure(Vector3Int vci)
     {
         var clone = Instantiate(this.gameObject);
@@ -118,6 +125,15 @@ public class Structures : MonoBehaviour
             collectionMap[vci] = indx;
             cthis.gameObject.GetComponent<BoxCollider2D>().enabled = true;
             cthis.placed = true;
+            cthis._defaultMaterial = cthis.gameObject.GetComponent<SpriteRenderer>().material;
+            if (cthis._defaultMaterial == null)
+            {
+                Debug.LogWarning("No material");
+            }
+            else
+            {
+                Debug.Log("Material set for default");
+            }
             StartCoroutine(RescanGraph());
         }
         else
@@ -125,6 +141,7 @@ public class Structures : MonoBehaviour
             Debug.Log("Not found!");
         }
     }
+
     void Update()
     {
         if (CanAttack && placed)
@@ -135,7 +152,6 @@ public class Structures : MonoBehaviour
                 debounce = true;
                 if (delta >= AttackSpeed)
                 {
-                    print(delta);
                     delta = 0f;
                     if (!_enemy)
                     {

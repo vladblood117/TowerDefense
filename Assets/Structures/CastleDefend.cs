@@ -33,6 +33,11 @@ public class CastleDefend : MonoBehaviour
         if (MH)
         {
             _health.TakeDamage(MH.Damage);
+            Debug.Log(_health.CurrentHealth);
+            Debug.Log(_health.MaxHealth);
+            var p = (float)_health.CurrentHealth / _health.MaxHealth;
+            Debug.Log(p);
+            gameObject.GetComponent<SpriteRenderer>().material.SetFloat("_Health", p);
             Destroy(collision.gameObject);
         }
     }

@@ -71,7 +71,6 @@ public class Buildings : MonoBehaviour
             }
             else if (mouse.rightButton.wasPressedThisFrame)
             {
-                print("Release!");
                 Destroy(_build.gameObject);
                 _build = null;
                 _follow = false;
