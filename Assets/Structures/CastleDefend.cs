@@ -6,15 +6,17 @@ public class CastleDefend : MonoBehaviour
 {
     HealthHandler _health;
     public HealthHandler.OnDeath _method;
+    private static List<CastleDefend> _defend = new List<CastleDefend>();
     // Start is called before the first frame update
     void Start()
     {
         _health = this.gameObject.GetComponent<HealthHandler>();
         _method = OnDeath;
         _health.RegisterDeathMethod(_method);
+        _defend.Add(this);
     }
 
-    void OnDeath()
+    void OnDeath(GameObject source)
     {
         Destroy(gameObject);
     }
@@ -25,20 +27,41 @@ public class CastleDefend : MonoBehaviour
 
     }
 
+    public static CastleDefend GetStructure(GameObject caller)
+    {
+        CastleDefend result = null;
+        foreach (CastleDefend d in _defend)
+        {
 
+            if (result == null)
+            {
+                result = d;
+            }
+            else
+            {
+                var magA = (caller.transform.position - d.transform.position).magnitude;
+                var magB = (caller.transform.position - result.transform.position).magnitude;
+                if (magA < magB)
+                {
+                    result = d;
+                }
+            }
+        }
+        return result;
+    }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         var MH = collision.gameObject.GetComponent<MobHandler>();
         if (MH)
         {
-            _health.TakeDamage(MH.Damage);
+            _health.TakeDamage(collision.gameObject, MH.Damage);
             Debug.Log(_health.CurrentHealth);
             Debug.Log(_health.MaxHealth);
             var p = (float)_health.CurrentHealth / _health.MaxHealth;
             Debug.Log(p);
             gameObject.GetComponent<SpriteRenderer>().material.SetFloat("_Health", p);
-            Destroy(collision.gameObject);
+            MH.RemoveMob();
         }
     }
 }

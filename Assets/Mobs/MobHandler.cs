@@ -14,14 +14,19 @@ public class MobHandler : MonoBehaviour
     private Rigidbody2D body;
     private BoxCollider2D _collider;
 
-    [SerializeField] public float MaxSpeed;
-    [SerializeField] public float MinSpeed;
+    [SerializeField] private float MaxSpeed;
+    [SerializeField] private float MinSpeed;
+    [SerializeField] private int MaxGold;
+    [SerializeField] private int MinGold;
+    [SerializeField] private int _mobId;
 
     private GameObject killObject;
     private Seeker _seeker;
     private AIPath _pathAI;
     public static Dictionary<int, GameObject> Creatures = new Dictionary<int, GameObject>();
     public static int CreatureId = 0;
+
+    public int MobId { get { return _mobId; } }
 
     //The AI's speed per second
     public float speed = 100;
@@ -45,6 +50,7 @@ public class MobHandler : MonoBehaviour
     void Start()
     {
         status = 0;
+        Debug.Log(_mobId);
         myCID = CreatureId + 1;
         CreatureId++;
         Creatures[myCID] = gameObject;
@@ -52,7 +58,7 @@ public class MobHandler : MonoBehaviour
         _method = DeathMethod;
         _health.RegisterDeathMethod(_method);
         _pathAI = gameObject.GetComponent<AIPath>();
-        killObject = GameObject.FindGameObjectWithTag("Defend");
+        killObject = CastleDefend.GetStructure(gameObject).gameObject;
         body = gameObject.GetComponent<Rigidbody2D>();
         _seeker = gameObject.GetComponent<Seeker>();
         scanIndex = Structures.currentScan;
@@ -60,12 +66,23 @@ public class MobHandler : MonoBehaviour
         _pathAI.maxSpeed = Random.Range(MinSpeed, MaxSpeed);
         _seeker.StartPath(transform.position, killObject.transform.position, OnPathComplete);
     }
-    private void DeathMethod()
+    private void DeathMethod(GameObject source)
+    {
+        Debug.Log(source.name);
+        PlayerHandler _plr = source.GetComponent<PlayerHandler>();
+        Creatures.Remove(myCID);
+        _plr.Currency.AddGold(
+            Random.Range(
+                MinGold, MaxGold
+                ));
+        Destroy(gameObject);
+
+    }
+    public void RemoveMob()
     {
 
         Creatures.Remove(myCID);
         Destroy(gameObject);
-
     }
     public void OnPathComplete(Path p)
     {
@@ -135,7 +152,7 @@ public class MobHandler : MonoBehaviour
                         if (targetAttack != null && delta >= 1f)
                         {
                             HealthHandler _health = targetAttack.GetComponent<HealthHandler>();
-                            _health.TakeDamage(Damage);
+                            _health.TakeDamage(gameObject, Damage);
                             delta = 0f;
                         }
 

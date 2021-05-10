@@ -5,14 +5,20 @@ using UnityEngine;
 public abstract class TDSystem : MonoBehaviour
 {
 
-    public static int ID = 1;
-
+    public delegate void RunAfterLoad();
     private float _childWait = 0f;
     public interface ISystem
     {
 
     }
 
+    public IEnumerator WaitForLoaded(bool value, RunAfterLoad callback)
+    {
+        Debug.Log("Wait for bool");
+        yield return new WaitUntil(() => value == true);
+        callback();
+        Debug.Log("Waited for bool;");
+    }
     public IEnumerator SetupChildWait()
     {
         Debug.Log("Perform a wait action");
@@ -36,4 +42,5 @@ public abstract class TDSystem : MonoBehaviour
         _childWait = 0f;
         return child;
     }
+
 }

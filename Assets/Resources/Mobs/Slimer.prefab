@@ -118,6 +118,9 @@ MonoBehaviour:
   Damage: 10
   MaxSpeed: 1
   MinSpeed: 0.5
+  MaxGold: 4
+  MinGold: 1
+  _mobId: 1
   speed: 100
   nextWaypointDistance: 3
   repathRate: 0.5
@@ -179,7 +182,7 @@ MonoBehaviour:
   maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 0.71
-  pickNextWaypointDist: 0.46
+  pickNextWaypointDist: 0.35
   endReachedDistance: 0.2
   alwaysDrawGizmos: 1
   slowWhenNotFacingTarget: 1

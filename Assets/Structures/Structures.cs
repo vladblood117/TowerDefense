@@ -33,6 +33,9 @@ public class Structures : TDSystem
     private float delta;
     private GameObject _enemy;
     private Material _defaultMaterial;
+    private PlayerHandler _player;
+    public PlayerHandler Player { get { return _player; } }
+
     public Material DefaultMaterial { get { return _defaultMaterial; } }
 
     public bool IsPlaced { get { return placed; } }
@@ -54,7 +57,7 @@ public class Structures : TDSystem
         currentScan++;
         yield return new WaitForSeconds(.5f);
     }
-    private void DeathMethod()
+    private void DeathMethod(GameObject source)
     {
 
         var vci = Vector3Int.FloorToInt(transform.position);
@@ -107,8 +110,9 @@ public class Structures : TDSystem
 
     //---------Dynamic Functions
 
+    public void SetOwner(PlayerHandler plr) { _player = plr; }
 
-    public void PlaceStructure(Vector3Int vci)
+    public void PlaceStructure(PlayerHandler requster, Vector3Int vci)
     {
         var clone = Instantiate(this.gameObject);
         clone.transform.position = (Vector3)vci + new Vector3(0.5f, 0.5f, 0f);
@@ -125,7 +129,10 @@ public class Structures : TDSystem
             collectionMap[vci] = indx;
             cthis.gameObject.GetComponent<BoxCollider2D>().enabled = true;
             cthis.placed = true;
-            cthis._defaultMaterial = cthis.gameObject.GetComponent<SpriteRenderer>().material;
+            cthis.SetOwner(requster);
+            var sr = cthis.gameObject.GetComponent<SpriteRenderer>();
+            cthis._defaultMaterial = sr.material;
+            sr.sortingOrder = 2;
             if (cthis._defaultMaterial == null)
             {
                 Debug.LogWarning("No material");
@@ -192,11 +199,20 @@ public class Structures : TDSystem
         }
         return val;
     }
-
+    public void Reclaim()
+    {
+        _player.Currency.AddGold(Mathf.FloorToInt(GoldCost * .3f));
+        var vci = Vector3Int.FloorToInt(transform.position);
+        GridManager.APMap.SetTile(vci, (Tile)Resources.Load("Tilemap/TDBlank"));
+        //  GridManager.ObMap.SetTile(vci, null);
+        collection.Remove(strutId);
+        Destroy(gameObject);
+    }
     private void Attack()
     {
         var shoot = Instantiate(Shoots).GetComponent<Projectiles>();
         shoot.transform.position = transform.position;
+        shoot.SetOwner(_player);
         shoot.SetTarget(_enemy);
         shoot.SetDamage(Random.Range(MinDamage, MaxDamage));
         shoot.Fire();

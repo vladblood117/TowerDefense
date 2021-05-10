@@ -12,12 +12,16 @@ public class Projectiles : MonoBehaviour
     private bool debounce;
     private Vector3 _startPosition;
 
+    private PlayerHandler _owner;
+
     // Start is called before the first frame update
     void Start()
     {
         delta = 0f;
         debounce = false;
     }
+
+    public void SetOwner(PlayerHandler owner) { _owner = owner; }
 
     // Update is called once per frame
     void Update()
@@ -28,11 +32,8 @@ public class Projectiles : MonoBehaviour
             if (!debounce)
             {
                 debounce = true;
-                print("Tracking!");
                 if (_target != null)
                 {
-                    print("Fire speed");
-                    print(Time.deltaTime * ProjectileSpeed);
                     gameObject.transform.position = Vector3.Lerp(_startPosition, _target.transform.position, delta);
                     var mag = (gameObject.transform.position - _target.transform.position).magnitude;
                     if (mag <= .3f)
@@ -42,7 +43,6 @@ public class Projectiles : MonoBehaviour
                 }
                 else
                 {
-                    print("Enemy died, bye bye");
                     Destroy(gameObject);
                 }
                 debounce = false;
@@ -62,7 +62,7 @@ public class Projectiles : MonoBehaviour
     public void HitTarget()
     {
         HealthHandler h = _target.GetComponent<HealthHandler>();
-        h.TakeDamage(_damage);
+        h.TakeDamage(_owner.gameObject, _damage);
         if (h.CurrentHealth <= 0)
         {
             Debug.Log("Enemy is dead");

@@ -13,6 +13,7 @@ public class Buildings : MonoBehaviour
     private RectTransform contentRT;
     private Structures _build;
     [SerializeField] GameObject BuildingButton;
+    public bool Follow { get { return _follow; } }
     // Start is called before the first frame update
     void Start()
     {
@@ -32,11 +33,11 @@ public class Buildings : MonoBehaviour
         if (_follow)
         {
             Vector3 pos = Camera.main.ScreenToWorldPoint((Vector3)mouse.position.ReadValue() + (Vector3.forward * 10));
-            _build.gameObject.transform.position = pos;
             var sr = _build.gameObject.GetComponent<SpriteRenderer>();
-            sr.sortingOrder = 1;
+            sr.sortingOrder = 5;
             var hover = false;
             Vector3Int vci = Vector3Int.FloorToInt(pos);
+            _build.gameObject.transform.position = vci + new Vector3(0.5f, 0.5f, 0f);
 
             if (GridManager.APMap.HasTile(vci))
             {
@@ -65,7 +66,7 @@ public class Buildings : MonoBehaviour
                     {
 
                         _plr.Currency.RemoveGold(_build.GoldCost);
-                        _build.PlaceStructure(vci);
+                        _build.PlaceStructure(_plr, vci);
                     }
                 }
             }

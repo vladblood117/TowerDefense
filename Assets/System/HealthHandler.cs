@@ -8,7 +8,7 @@ public class HealthHandler : MonoBehaviour
     public static int ID = 9;
     [SerializeField] public int MaxHealth;
 
-    public delegate void OnDeath();
+    public delegate void OnDeath(GameObject source);
     public OnDeath m_methodToCall;
 
     private int _health;
@@ -29,13 +29,13 @@ public class HealthHandler : MonoBehaviour
         m_methodToCall = m;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(GameObject source, int damage)
     {
         print("Taking damage");
         _health -= damage;
         if (_health <= 0)
         {
-            m_methodToCall();
+            m_methodToCall(source);
 
         }
     }

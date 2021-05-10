@@ -14,6 +14,7 @@ public class StructureController : MonoBehaviour, IPointerEnterHandler, IPointer
     private bool _hovered = false;
     private InputAction.CallbackContext clickMethod;
     private bool _opened;
+    public Structures Structure { get { return _structure; } }
 
     void Start()
     {
@@ -29,7 +30,7 @@ public class StructureController : MonoBehaviour, IPointerEnterHandler, IPointer
 
     public void OnClick(InputAction.CallbackContext context)
     {
-        if (_hovered)
+        if (_hovered && !_player.Building.Follow)
         {
             if (_opened)
             {
