@@ -49,12 +49,7 @@ public class MobSpawner : MonoBehaviour
     {
         GameObject mob = null;
         Debug.Log("A");
-        var r = Random.Range(1, 2);
-        print(r);
-        if (r == 2)
-        {
-            Debug.Log("*************************************** BBTrain");
-        }
+        var r = Random.Range(1, Spawns.Count + 1);
         var MobCount = Spawns[r];
         print(Spawns.Count);
         if (MobCount > 0)
@@ -96,7 +91,6 @@ public class MobSpawner : MonoBehaviour
         {
             Spawns[MobId] = Quantity;
         }
-        Debug.Log("*********** >>" + Spawns[MobId] + " << *********");
     }
 
     public void SetSpawnTimer(float value)

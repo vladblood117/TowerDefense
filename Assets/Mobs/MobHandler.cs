@@ -20,7 +20,7 @@ public class MobHandler : MonoBehaviour
     [SerializeField] private int MinGold;
     [SerializeField] private int _mobId;
 
-    private GameObject killObject;
+    private CastleDefend killObject;
     private Seeker _seeker;
     private AIPath _pathAI;
     public static Dictionary<int, GameObject> Creatures = new Dictionary<int, GameObject>();
@@ -36,11 +36,14 @@ public class MobHandler : MonoBehaviour
     private int currentWaypoint = 0;
     public HealthHandler.OnDeath _method;
     public float repathRate = 0.5f;
+
+    private Animator _animator;
     private float lastRepath = -9999;
     private float delta = 0f;
     private int status;
     //0 = pathing, 1 = attacking
     private Path path;
+    private AIPath _aiPath;
     private int scanIndex = 0;
     private int direction;
     private GameObject targetAttack;
@@ -58,11 +61,13 @@ public class MobHandler : MonoBehaviour
         _method = DeathMethod;
         _health.RegisterDeathMethod(_method);
         _pathAI = gameObject.GetComponent<AIPath>();
-        killObject = CastleDefend.GetStructure(gameObject).gameObject;
+        killObject = CastleDefend.GetStructure(gameObject);
         body = gameObject.GetComponent<Rigidbody2D>();
         _seeker = gameObject.GetComponent<Seeker>();
         scanIndex = Structures.currentScan;
+        _aiPath = gameObject.GetComponent<AIPath>();
         direction = 0;
+        _animator = gameObject.GetComponent<Animator>();
         _pathAI.maxSpeed = Random.Range(MinSpeed, MaxSpeed);
         _seeker.StartPath(transform.position, killObject.transform.position, OnPathComplete);
     }
@@ -100,12 +105,18 @@ public class MobHandler : MonoBehaviour
             Debug.Log("Oh noes, the target was not reachable: " + p.errorLog);
         }
 
-        // Update is called once per frame
 
     }
-
+    // Update is called once per frame
     public void Update()
     {
+        var distance = (transform.position - killObject.transform.position).magnitude;
+        print(distance);
+        if (distance < .25)
+        {
+            killObject.BuildingTakeDamage(this);
+            return;
+        }
         if (Structures.currentScan > scanIndex)
         {
             print("Repath!");
@@ -115,6 +126,11 @@ public class MobHandler : MonoBehaviour
             status = 0;
         }
         delta += Time.deltaTime;
+        if (_animator != null)
+        {
+            _animator.SetFloat("X", _aiPath.velocity.x);
+            _animator.SetFloat("Y", _aiPath.velocity.y);
+        }
         switch (status)
         {
             case 0:
@@ -139,7 +155,7 @@ public class MobHandler : MonoBehaviour
                 if (!debounce)
                 {
                     debounce = true;
-                    if (body.velocity == Vector2.zero)
+                    if (_aiPath.velocity == Vector3.zero)
                     {
                         if (targetAttack == null)
                         {
