@@ -65,6 +65,7 @@ public class StructureGui : TDSystem
         if (activeStructure != null)
         {
             activeStructure.Structure.Reclaim();
+            CloseActiveStructure();
         }
     }
     public static void RefreshGui()

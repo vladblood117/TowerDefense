@@ -57,6 +57,7 @@ public class Levels : TDSystem
             {
                 if (_roundTime >= _roundTimeDelay)
                 {
+                    Debug.Log("Start round");
                     StartRound();
                 }
             }
@@ -67,6 +68,7 @@ public class Levels : TDSystem
 
     private void NewRound()
     {
+        this.Level++;
         if (!Rounds.Loaded) { }
         _running = false;
         _roundTime = 0f;
@@ -90,9 +92,6 @@ public class Levels : TDSystem
             foreach (int mobId in toKillThisRound.Keys)
             {
                 var v = Mathf.CeilToInt(toKillThisRound[mobId] / _mobSpawners.Count);
-                print(toKillThisRound[mobId] + " - to die this round");
-                print("---------- >>" + v + "<< -----------");
-                print(mobId);
                 m.AddMobs(mobId, v);
             }
 
@@ -103,6 +102,7 @@ public class Levels : TDSystem
     {
         _running = true;
         _roundTime = 0f;
+        Debug.Log("Current round level " + this.Level);
         foreach (MobSpawner m in _mobSpawners)
         {
             m.StartSpawner();

@@ -53,7 +53,6 @@ public class MobHandler : MonoBehaviour
     void Start()
     {
         status = 0;
-        Debug.Log(_mobId);
         myCID = CreatureId + 1;
         CreatureId++;
         Creatures[myCID] = gameObject;
@@ -73,7 +72,6 @@ public class MobHandler : MonoBehaviour
     }
     private void DeathMethod(GameObject source)
     {
-        Debug.Log(source.name);
         PlayerHandler _plr = source.GetComponent<PlayerHandler>();
         Creatures.Remove(myCID);
         _plr.Currency.AddGold(
@@ -111,7 +109,6 @@ public class MobHandler : MonoBehaviour
     public void Update()
     {
         var distance = (transform.position - killObject.transform.position).magnitude;
-        print(distance);
         if (distance < .25)
         {
             killObject.BuildingTakeDamage(this);

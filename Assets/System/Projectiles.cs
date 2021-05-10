@@ -28,6 +28,7 @@ public class Projectiles : MonoBehaviour
     {
         if (_tracking)
         {
+
             delta = Mathf.Clamp(delta + Time.deltaTime, 0f, ProjectileSpeed);
             if (!debounce)
             {
@@ -65,7 +66,6 @@ public class Projectiles : MonoBehaviour
         h.TakeDamage(_owner.gameObject, _damage);
         if (h.CurrentHealth <= 0)
         {
-            Debug.Log("Enemy is dead");
             _target = null;
             _tracking = false;
         }

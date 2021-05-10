@@ -31,7 +31,6 @@ public class HealthHandler : MonoBehaviour
 
     public void TakeDamage(GameObject source, int damage)
     {
-        print("Taking damage");
         _health -= damage;
         if (_health <= 0)
         {

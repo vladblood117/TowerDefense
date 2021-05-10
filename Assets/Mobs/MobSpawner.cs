@@ -48,27 +48,13 @@ public class MobSpawner : MonoBehaviour
     private GameObject GetMob()
     {
         GameObject mob = null;
-        Debug.Log("A");
         var r = Random.Range(1, Spawns.Count + 1);
         var MobCount = Spawns[r];
-        print(Spawns.Count);
         if (MobCount > 0)
         {
-            Debug.Log("B");
             mob = (GameObject)Instantiate(Rounds.AllMobs[r].gameObject) as GameObject;
             Spawns[r] -= 1;
-            print("Mob count after spawn");
-            print(Spawns[r]);
-            Debug.Log("C");
         }
-        else
-        {
-            Debug.Log("D");
-
-            // mob = GetMob();
-            Debug.Log("E");
-        }
-        Debug.Log("F");
         return mob;
     }
 

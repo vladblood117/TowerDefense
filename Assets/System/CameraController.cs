@@ -13,7 +13,6 @@ public class CameraController : MonoBehaviour, IPointerDownHandler
         {
             var dir = context.ReadValue<Vector2>() * moveSpeed;
             _direction = new Vector3(dir.x, dir.y, 0);
-            Debug.Log(_direction);
         }
         else if (context.canceled)
         {

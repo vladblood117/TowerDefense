@@ -133,14 +133,6 @@ public class Structures : TDSystem
             var sr = cthis.gameObject.GetComponent<SpriteRenderer>();
             cthis._defaultMaterial = sr.material;
             sr.sortingOrder = 2;
-            if (cthis._defaultMaterial == null)
-            {
-                Debug.LogWarning("No material");
-            }
-            else
-            {
-                Debug.Log("Material set for default");
-            }
             StartCoroutine(RescanGraph());
         }
         else
