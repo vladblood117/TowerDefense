@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 2cbbf2703d70e3f4b9d4e24eac0dd5c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5082468596337448225
+    second: DemonFighter_0
+  - first:
+      213: 8051919005439487086
+    second: DemonFighter_1
+  - first:
+      213: 1270772851385165159
+    second: DemonFighter_2
+  - first:
+      213: -209690333987638276
+    second: DemonFighter_3
+  - first:
+      213: -3351758067598263038
+    second: DemonFighter_4
+  - first:
+      213: 4729461012478772778
+    second: DemonFighter_5
+  - first:
+      213: 33753398000660617
+    second: DemonFighter_6
+  - first:
+      213: -3107472376565330775
+    second: DemonFighter_7
+  - first:
+      213: -844131388441571696
+    second: DemonFighter_8
+  - first:
+      213: 3719092681081312437
+    second: DemonFighter_9
+  - first:
+      213: 4590593460025759289
+    second: DemonFighter_10
+  - first:
+      213: -5434041983828274627
+    second: DemonFighter_11
+  - first:
+      213: -3709235379561874714
+    second: DemonFighter_12
+  - first:
+      213: 7210208348870617933
+    second: DemonFighter_13
+  - first:
+      213: -8777619392100457899
+    second: DemonFighter_14
+  - first:
+      213: -1160420501116152579
+    second: DemonFighter_15
+  - first:
+      213: 3055416761961535297
+    second: DemonFighter_16
+  - first:
+      213: -7277699033588866615
+    second: DemonFighter_17
+  - first:
+      213: -3309988622391071447
+    second: DemonFighter_18
+  - first:
+      213: -6391847481633471882
+    second: DemonFighter_19
+  - first:
+      213: -4743396756225490946
+    second: DemonFighter_20
+  - first:
+      213: 6499041355302490269
+    second: DemonFighter_21
+  - first:
+      213: 7691400368539799338
+    second: DemonFighter_22
+  - first:
+      213: 8402786784958849490
+    second: DemonFighter_23
+  - first:
+      213: -1904698105378710372
+    second: DemonFighter_24
+  - first:
+      213: -6482851306065570361
+    second: DemonFighter_25
+  - first:
+      213: 6989398032794113466
+    second: DemonFighter_26
+  - first:
+      213: -7777842114850945743
+    second: DemonFighter_27
+  - first:
+      213: -6377789551477299200
+    second: DemonFighter_28
+  - first:
+      213: 144511575912804295
+    second: DemonFighter_29
+  - first:
+      213: -5754684123323175836
+    second: DemonFighter_30
+  - first:
+      213: -2686056375416329137
+    second: DemonFighter_31
+  - first:
+      213: 6861208398295039458
+    second: DemonFighter_32
+  - first:
+      213: -2365506835037904262
+    second: DemonFighter_33
+  - first:
+      213: -4431195062465611460
+    second: DemonFighter_34
+  - first:
+      213: 8723482331615090570
+    second: DemonFighter_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DemonFighter_0
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 522
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12595c2a24e888640800000000000000
+      internalID: 5082468596337448225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_1
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 522
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cef6faca92ebf60800000000000000
+      internalID: 8051919005439487086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_2
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 521
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765e50dec21b2a110800000000000000
+      internalID: 1270772851385165159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_3
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 520
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf375d190c7071df0800000000000000
+      internalID: -209690333987638276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_4
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 521
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d71cfbbc92c71d0800000000000000
+      internalID: -3351758067598263038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_5
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 522
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a264bdbabbb62a140800000000000000
+      internalID: 4729461012478772778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_6
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 521
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980bac1698ae77000800000000000000
+      internalID: 33753398000660617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_7
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 520
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac0c7d665a00e4d0800000000000000
+      internalID: -3107472376565330775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_8
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 521
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ece2089fa0944f0800000000000000
+      internalID: -844131388441571696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_9
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 456
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b45b9eb61fdc9330800000000000000
+      internalID: 3719092681081312437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_10
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 457
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936111d0e6015bf30800000000000000
+      internalID: 4590593460025759289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_11
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 458
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d325b534b976694b0800000000000000
+      internalID: -5434041983828274627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_12
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 458
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea37ec1316268cc0800000000000000
+      internalID: -3709235379561874714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_13
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 457
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b2dfeba4ecf0460800000000000000
+      internalID: 7210208348870617933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_14
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 457
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552a5403ba1af2680800000000000000
+      internalID: -8777619392100457899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_15
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 457
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df414e0d3bb55efe0800000000000000
+      internalID: -1160420501116152579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_16
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 457
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147dd715b55076a20800000000000000
+      internalID: 3055416761961535297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_17
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 457
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c16bb0b94b600b90800000000000000
+      internalID: -7277699033588866615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_18
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 391
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dabcf82ee8012d0800000000000000
+      internalID: -3309988622391071447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_19
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 391
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67203c6b4989b47a0800000000000000
+      internalID: -6391847481633471882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_20
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 392
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff707428c11c2eb0800000000000000
+      internalID: -4743396756225490946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_21
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 392
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90d063edab313a50800000000000000
+      internalID: 6499041355302490269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 391
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f8f1862e75dba60800000000000000
+      internalID: 7691400368539799338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_23
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 391
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1a1d0af02bc9470800000000000000
+      internalID: 8402786784958849490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_24
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 392
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cda882a272195e0800000000000000
+      internalID: -1904698105378710372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_25
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 392
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5d842b5194806a0800000000000000
+      internalID: -6482851306065570361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_26
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 391
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5d18aba745ff060800000000000000
+      internalID: 6989398032794113466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_27
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 328
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1358c392ecd8f0490800000000000000
+      internalID: -7777842114850945743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_28
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 329
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0086ff3a13a8d77a0800000000000000
+      internalID: -6377789551477299200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_29
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 330
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfe63c3388610200800000000000000
+      internalID: 144511575912804295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_30
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 330
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cedba87414320b0800000000000000
+      internalID: -5754684123323175836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_31
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 329
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ce2a835f539bad0800000000000000
+      internalID: -2686056375416329137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_32
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 329
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed7d4e9fa8e73f50800000000000000
+      internalID: 6861208398295039458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_33
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 329
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72aec701180c2fd0800000000000000
+      internalID: -2365506835037904262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_34
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 329
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39b543719b3182c0800000000000000
+      internalID: -4431195062465611460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonFighter_35
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 329
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87505c26f8001970800000000000000
+      internalID: 8723482331615090570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

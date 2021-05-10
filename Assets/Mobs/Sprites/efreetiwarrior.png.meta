@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 182169b48db7cef4887059c73536d776
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3402166138708039748
+    second: efreetiwarrior_0
+  - first:
+      213: -2668646062529039622
+    second: efreetiwarrior_1
+  - first:
+      213: -498079302353880802
+    second: efreetiwarrior_2
+  - first:
+      213: -6505156727839891028
+    second: efreetiwarrior_3
+  - first:
+      213: -912317069920539764
+    second: efreetiwarrior_4
+  - first:
+      213: -5908866006292928173
+    second: efreetiwarrior_5
+  - first:
+      213: 2784364133744314960
+    second: efreetiwarrior_6
+  - first:
+      213: -2791953637243842163
+    second: efreetiwarrior_7
+  - first:
+      213: 5778902522163163080
+    second: efreetiwarrior_8
+  - first:
+      213: 5083821050005425454
+    second: efreetiwarrior_9
+  - first:
+      213: 6518058400391447820
+    second: efreetiwarrior_10
+  - first:
+      213: 1513336304805975362
+    second: efreetiwarrior_11
+  - first:
+      213: 3017244167757485143
+    second: efreetiwarrior_12
+  - first:
+      213: -2815561835663937760
+    second: efreetiwarrior_13
+  - first:
+      213: 4890276836381838704
+    second: efreetiwarrior_14
+  - first:
+      213: -4315786352217205215
+    second: efreetiwarrior_15
+  - first:
+      213: -5174081768498212392
+    second: efreetiwarrior_16
+  - first:
+      213: 301943636661914414
+    second: efreetiwarrior_17
+  - first:
+      213: 7362140725057118446
+    second: efreetiwarrior_18
+  - first:
+      213: 1349583778309772603
+    second: efreetiwarrior_19
+  - first:
+      213: -207888095387744478
+    second: efreetiwarrior_20
+  - first:
+      213: -7887888278319826965
+    second: efreetiwarrior_21
+  - first:
+      213: -2739627875775471758
+    second: efreetiwarrior_22
+  - first:
+      213: -8760939681777713497
+    second: efreetiwarrior_23
+  - first:
+      213: -2099677257532897683
+    second: efreetiwarrior_24
+  - first:
+      213: 2389276948533618827
+    second: efreetiwarrior_25
+  - first:
+      213: 3281638539936188528
+    second: efreetiwarrior_26
+  - first:
+      213: 8881465861891808844
+    second: efreetiwarrior_27
+  - first:
+      213: 4594789831757070811
+    second: efreetiwarrior_28
+  - first:
+      213: 3467422401225791521
+    second: efreetiwarrior_29
+  - first:
+      213: 1827191215042236274
+    second: efreetiwarrior_30
+  - first:
+      213: 5782114260475841473
+    second: efreetiwarrior_31
+  - first:
+      213: 3554963467636053413
+    second: efreetiwarrior_32
+  - first:
+      213: -5898337582557274057
+    second: efreetiwarrior_33
+  - first:
+      213: 4904539001437025341
+    second: efreetiwarrior_34
+  - first:
+      213: -1445334828370543010
+    second: efreetiwarrior_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: efreetiwarrior_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1005
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7e17b1ce319c0d0800000000000000
+      internalID: -3402166138708039748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1005
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af236b39b8017fad0800000000000000
+      internalID: -2668646062529039622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1004
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19f83173877619f0800000000000000
+      internalID: -498079302353880802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1003
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca16cdcfb6a09b5a0800000000000000
+      internalID: -6505156727839891028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1004
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b6cd4657cc653f0800000000000000
+      internalID: -912317069920539764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1005
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359678d7cad7ffda0800000000000000
+      internalID: -5908866006292928173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_6
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1004
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a0b2d6d6c04a620800000000000000
+      internalID: 2784364133744314960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_7
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1003
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8198b695fcf049d0800000000000000
+      internalID: -2791953637243842163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1004
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfe429d939c23050800000000000000
+      internalID: 5778902522163163080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 940
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d0a3b4f4c5d8640800000000000000
+      internalID: 5083821050005425454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 940
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05459cb49bc47a50800000000000000
+      internalID: 6518058400391447820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_11
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 941
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24599a9e953700510800000000000000
+      internalID: 1513336304805975362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 941
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754ddc3a5976fd920800000000000000
+      internalID: 3017244167757485143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 940
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02faa1e8d6d1de8d0800000000000000
+      internalID: -2815561835663937760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_14
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 940
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d4cd57fd0cdd340800000000000000
+      internalID: 4890276836381838704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_15
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 940
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1265d9dbd2f3b14c0800000000000000
+      internalID: -4315786352217205215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_16
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 940
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1d6d58b08f138b0800000000000000
+      internalID: -5174081768498212392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_17
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 940
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b4c654328b03400800000000000000
+      internalID: 301943636661914414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_18
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 876
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0677fabf39b2660800000000000000
+      internalID: 7362140725057118446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 876
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3598c4cb4faab210800000000000000
+      internalID: 1349583778309772603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_20
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 875
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2278161f0ee6d1df0800000000000000
+      internalID: -207888095387744478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_21
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 875
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be777c61767988290800000000000000
+      internalID: -7887888278319826965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_22
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 875
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f15af46f2eaf9d0800000000000000
+      internalID: -2739627875775471758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_23
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 876
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aef301e6c3ea6680800000000000000
+      internalID: -8760939681777713497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_24
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 875
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6609c9a8a27cd2e0800000000000000
+      internalID: -2099677257532897683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_25
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 875
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88206bc9ba682120800000000000000
+      internalID: 2389276948533618827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_26
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 875
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078c02e7dd8ba8d20800000000000000
+      internalID: 3281638539936188528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 812
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ed1d6352e414b70800000000000000
+      internalID: 8881465861891808844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_28
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 812
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1057bf109f3cf30800000000000000
+      internalID: 4594789831757070811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_29
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 813
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1289b4f7d42ce1030800000000000000
+      internalID: 3467422401225791521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_30
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 813
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f8e4daabc7b5910800000000000000
+      internalID: 1827191215042236274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_31
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 812
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb0262f8423e3050800000000000000
+      internalID: 5782114260475841473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_32
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 812
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a510f55074c55130800000000000000
+      internalID: 3554963467636053413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_33
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 812
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730665a2835e42ea0800000000000000
+      internalID: -5898337582557274057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_34
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 812
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34f3b78c3c601440800000000000000
+      internalID: 4904539001437025341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: efreetiwarrior_35
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 812
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e397d91a321fbe0800000000000000
+      internalID: -1445334828370543010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

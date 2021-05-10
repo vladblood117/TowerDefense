@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 1ef8ce426f899ba42950c83941141550
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4993152990303907458
+    second: DrowWarrior_0
+  - first:
+      213: -2379423726310511685
+    second: DrowWarrior_1
+  - first:
+      213: 1983208182724040869
+    second: DrowWarrior_2
+  - first:
+      213: 7627337417909841555
+    second: DrowWarrior_3
+  - first:
+      213: -7430199677876943771
+    second: DrowWarrior_4
+  - first:
+      213: -5302087059138533980
+    second: DrowWarrior_5
+  - first:
+      213: 3541467055801588901
+    second: DrowWarrior_6
+  - first:
+      213: -4322440240019715187
+    second: DrowWarrior_7
+  - first:
+      213: -4545513788539298974
+    second: DrowWarrior_8
+  - first:
+      213: 5671933447302237703
+    second: DrowWarrior_9
+  - first:
+      213: 7576877840097349588
+    second: DrowWarrior_10
+  - first:
+      213: 150402557199660022
+    second: DrowWarrior_11
+  - first:
+      213: 4559841927181884738
+    second: DrowWarrior_12
+  - first:
+      213: -3366361689750667340
+    second: DrowWarrior_13
+  - first:
+      213: 1705927995518460524
+    second: DrowWarrior_14
+  - first:
+      213: 6330941100022558773
+    second: DrowWarrior_15
+  - first:
+      213: -9190025745811284653
+    second: DrowWarrior_16
+  - first:
+      213: -6946911652046872495
+    second: DrowWarrior_17
+  - first:
+      213: 6524675424112995775
+    second: DrowWarrior_18
+  - first:
+      213: -4833017605818280018
+    second: DrowWarrior_19
+  - first:
+      213: -5412838205683708977
+    second: DrowWarrior_20
+  - first:
+      213: -358221951942185152
+    second: DrowWarrior_21
+  - first:
+      213: 1942676060685940258
+    second: DrowWarrior_22
+  - first:
+      213: -1172094403754070377
+    second: DrowWarrior_23
+  - first:
+      213: 1558075073854756780
+    second: DrowWarrior_24
+  - first:
+      213: -376493235375965260
+    second: DrowWarrior_25
+  - first:
+      213: -7503642955268514477
+    second: DrowWarrior_26
+  - first:
+      213: 5976727575154998738
+    second: DrowWarrior_27
+  - first:
+      213: -4279318029750377945
+    second: DrowWarrior_28
+  - first:
+      213: 4308366344001444427
+    second: DrowWarrior_29
+  - first:
+      213: -5898712799386903293
+    second: DrowWarrior_30
+  - first:
+      213: -9141584241642552154
+    second: DrowWarrior_31
+  - first:
+      213: -1842096570957928334
+    second: DrowWarrior_32
+  - first:
+      213: -7187297920592873882
+    second: DrowWarrior_33
+  - first:
+      213: -953936594774294007
+    second: DrowWarrior_34
+  - first:
+      213: -517455336068758893
+    second: DrowWarrior_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DrowWarrior_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 695
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7191c76fc1c4bab0800000000000000
+      internalID: -4993152990303907458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 695
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb20274ab69afed0800000000000000
+      internalID: -2379423726310511685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 694
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a81aeea555c58b10800000000000000
+      internalID: 1983208182724040869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 693
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39eaf8068feb9d960800000000000000
+      internalID: 7627337417909841555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 694
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5644ce582c0a2e890800000000000000
+      internalID: -7430199677876943771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_5
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 695
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a52adf49e33b66b0800000000000000
+      internalID: -5302087059138533980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_6
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 694
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac5dc41681d52130800000000000000
+      internalID: 3541467055801588901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 693
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b45c2c08b9304c0800000000000000
+      internalID: -4322440240019715187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_8
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 694
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b9970ea471be0c0800000000000000
+      internalID: -4545513788539298974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 630
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e4b1c4b61c6be40800000000000000
+      internalID: 5671933447302237703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 630
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df0885604a762960800000000000000
+      internalID: 7576877840097349588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 631
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f332333456561200800000000000000
+      internalID: 150402557199660022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_12
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 631
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ddb9dd210d74f30800000000000000
+      internalID: 4559841927181884738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 630
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf7de001e74841d0800000000000000
+      internalID: -3366361689750667340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_14
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 630
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62a549397caca710800000000000000
+      internalID: 1705927995518460524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_15
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 630
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530f3c043650cd750800000000000000
+      internalID: 6330941100022558773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_16
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 630
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d59386648767080800000000000000
+      internalID: -9190025745811284653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_17
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 630
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15069b5a8ac979f90800000000000000
+      internalID: -6946911652046872495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 566
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbde9f0aabd4c8a50800000000000000
+      internalID: 6524675424112995775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 566
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea71efb081cadecb0800000000000000
+      internalID: -4833017605818280018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_20
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 565
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb4f83945cb1e4b0800000000000000
+      internalID: -5412838205683708977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 565
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f2dbb5807570bf0800000000000000
+      internalID: -358221951942185152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_22
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 565
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22637de9595c5fa10800000000000000
+      internalID: 1942676060685940258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_23
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 566
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ee30d8952ebbfe0800000000000000
+      internalID: -1172094403754070377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_24
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 565
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7d08e46056f9510800000000000000
+      internalID: 1558075073854756780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_25
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 565
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbf31da56d66caf0800000000000000
+      internalID: -376493235375965260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_26
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 565
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d9bd9fc74bdd790800000000000000
+      internalID: -7503642955268514477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_27
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 502
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd3564401a91f250800000000000000
+      internalID: 5976727575154998738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_28
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 502
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722edcbbceecc94c0800000000000000
+      internalID: -4279318029750377945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_29
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 503
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a5478fc546acb30800000000000000
+      internalID: 4308366344001444427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_30
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 503
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d5e7036ff832ea0800000000000000
+      internalID: -5898712799386903293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_31
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 502
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a446900191922180800000000000000
+      internalID: -9141584241642552154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_32
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 502
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2786616bdee8f66e0800000000000000
+      internalID: -1842096570957928334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_33
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 502
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66678240f96914c90800000000000000
+      internalID: -7187297920592873882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_34
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 502
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9028b32a8bfe2c2f0800000000000000
+      internalID: -953936594774294007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrowWarrior_35
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 502
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392cd7a0d11a1d8f0800000000000000
+      internalID: -517455336068758893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
