@@ -11,7 +11,13 @@ public abstract class TDSystem : MonoBehaviour
     {
 
     }
-
+    public IEnumerator WaitForSeconds(float seconds, RunAfterLoad callback)
+    {
+        Debug.Log("Wait for sec");
+        yield return new WaitForSeconds(seconds);
+        callback();
+        Debug.Log("Waited for sec;");
+    }
     public IEnumerator WaitForLoaded(bool value, RunAfterLoad callback)
     {
         Debug.Log("Wait for bool");

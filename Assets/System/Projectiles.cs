@@ -29,13 +29,14 @@ public class Projectiles : MonoBehaviour
         if (_tracking)
         {
 
-            delta = Mathf.Clamp(delta + Time.deltaTime, 0f, ProjectileSpeed);
+            delta = (delta + Time.deltaTime);
             if (!debounce)
             {
                 debounce = true;
                 if (_target != null)
                 {
-                    gameObject.transform.position = Vector3.Lerp(_startPosition, _target.transform.position, delta);
+                    var dir = (_target.transform.position - gameObject.transform.position).normalized;
+                    gameObject.transform.position = gameObject.transform.position + (dir * ProjectileSpeed * Time.deltaTime);  //Vector3.Lerp(_startPosition, _target.transform.position, delta * ProjectileSpeed);
                     var mag = (gameObject.transform.position - _target.transform.position).magnitude;
                     if (mag <= .3f)
                     {
@@ -44,6 +45,7 @@ public class Projectiles : MonoBehaviour
                 }
                 else
                 {
+                    delta = 0f;
                     Destroy(gameObject);
                 }
                 debounce = false;
@@ -68,6 +70,7 @@ public class Projectiles : MonoBehaviour
         {
             _target = null;
             _tracking = false;
+            delta = 0f;
         }
         Destroy(gameObject);
     }

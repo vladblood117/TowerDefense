@@ -79,12 +79,13 @@ public class MobHandler : MonoBehaviour
                 MinGold, MaxGold
                 ));
         Destroy(gameObject);
-
+        Levels.IncrementKilledThisRound();
     }
     public void RemoveMob()
     {
 
         Creatures.Remove(myCID);
+        Levels.IncrementKilledThisRound();
         Destroy(gameObject);
     }
     public void OnPathComplete(Path p)

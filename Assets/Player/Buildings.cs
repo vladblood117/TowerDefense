@@ -54,7 +54,7 @@ public class Buildings : MonoBehaviour
             }
             if (mouse.leftButton.wasPressedThisFrame)
             {
-                if (_plr.Currency.Gold <= _build.GoldCost)
+                if (_plr.Currency.Gold < _build.GoldCost)
                 {
                     sr.color = Color.red;
                 }
