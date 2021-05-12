@@ -31,7 +31,7 @@ public class Levels : TDSystem
         _mobSpawners = new List<MobSpawner>();
         for (int i = 0; i < _spawnerCount; i++)
         {
-            var r = Random.Range(1, _spawners.Count + 1);
+            var r = Random.Range(0, _spawners.Count);
             GameObject obj = _spawners[r];
             var spwnr = obj.AddComponent<MobSpawner>();
             spwnr.SetSpawnTimer(5f);
