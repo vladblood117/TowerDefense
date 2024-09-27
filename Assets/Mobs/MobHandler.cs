@@ -14,11 +14,19 @@ public class MobHandler : MonoBehaviour
     private Rigidbody2D body;
     private BoxCollider2D _collider;
 
-    private GameObject killObject;
-    private Seeker _seeker;
+    [SerializeField] private float MaxSpeed;
+    [SerializeField] private float MinSpeed;
+    [SerializeField] private int MaxGold;
+    [SerializeField] private int MinGold;
+    [SerializeField] private int _mobId;
 
+    private CastleDefend killObject;
+    private Seeker _seeker;
+    private AIPath _pathAI;
     public static Dictionary<int, GameObject> Creatures = new Dictionary<int, GameObject>();
     public static int CreatureId = 0;
+
+    public int MobId { get { return _mobId; } }
 
     //The AI's speed per second
     public float speed = 100;
@@ -28,11 +36,14 @@ public class MobHandler : MonoBehaviour
     private int currentWaypoint = 0;
     public HealthHandler.OnDeath _method;
     public float repathRate = 0.5f;
+
+    private Animator _animator;
     private float lastRepath = -9999;
     private float delta = 0f;
     private int status;
     //0 = pathing, 1 = attacking
     private Path path;
+    private AIPath _aiPath;
     private int scanIndex = 0;
     private int direction;
     private GameObject targetAttack;
@@ -48,19 +59,34 @@ public class MobHandler : MonoBehaviour
         _health = gameObject.GetComponent<HealthHandler>();
         _method = DeathMethod;
         _health.RegisterDeathMethod(_method);
-        killObject = GameObject.FindGameObjectWithTag("Defend");
+        _pathAI = gameObject.GetComponent<AIPath>();
+        killObject = CastleDefend.GetStructure(gameObject);
         body = gameObject.GetComponent<Rigidbody2D>();
         _seeker = gameObject.GetComponent<Seeker>();
         scanIndex = Structures.currentScan;
+        _aiPath = gameObject.GetComponent<AIPath>();
         direction = 0;
+        _animator = gameObject.GetComponent<Animator>();
+        _pathAI.maxSpeed = Random.Range(MinSpeed, MaxSpeed);
         _seeker.StartPath(transform.position, killObject.transform.position, OnPathComplete);
     }
-    private void DeathMethod()
+    private void DeathMethod(GameObject source)
+    {
+        PlayerHandler _plr = source.GetComponent<PlayerHandler>();
+        Creatures.Remove(myCID);
+        _plr.Currency.AddGold(
+            Random.Range(
+                MinGold, MaxGold
+                ));
+        Destroy(gameObject);
+        Levels.IncrementKilledThisRound();
+    }
+    public void RemoveMob()
     {
 
         Creatures.Remove(myCID);
+        Levels.IncrementKilledThisRound();
         Destroy(gameObject);
-
     }
     public void OnPathComplete(Path p)
     {
@@ -78,58 +104,77 @@ public class MobHandler : MonoBehaviour
             Debug.Log("Oh noes, the target was not reachable: " + p.errorLog);
         }
 
-        // Update is called once per frame
 
     }
-
+    // Update is called once per frame
     public void Update()
     {
+        var distance = (transform.position - killObject.transform.position).magnitude;
+        if (distance < .25)
+        {
+            killObject.BuildingTakeDamage(this);
+            return;
+        }
         if (Structures.currentScan > scanIndex)
         {
+            print("Repath!");
             _seeker.StartPath(transform.position, killObject.transform.position, OnPathComplete);
             scanIndex = Structures.currentScan;
             targetAttack = null;
             status = 0;
         }
         delta += Time.deltaTime;
+        if (_animator != null)
+        {
+            _animator.SetFloat("X", _aiPath.velocity.x);
+            _animator.SetFloat("Y", _aiPath.velocity.y);
+        }
         switch (status)
         {
             case 0:
-                if (delta >= 1f)
+                if (!debounce)
                 {
-                    delta = 0f;
-                    GraphNode node1 = AstarPath.active.GetNearest(transform.position, NNConstraint.Default).node;
-                    GraphNode node2 = AstarPath.active.GetNearest(killObject.transform.position, NNConstraint.Default).node;
-                    if (!PathUtilities.IsPathPossible(node1, node2))
-                    {
-                        status = 1;
-                        delta = 0f;
-                    }
-                }
+                    debounce = true;
 
+                    if (delta >= 1f)
+                    {
+                        delta = 0f;
+                        GraphNode node1 = AstarPath.active.GetNearest(transform.position, NNConstraint.Default).node;
+                        GraphNode node2 = AstarPath.active.GetNearest(killObject.transform.position, NNConstraint.Default).node;
+                        if (!PathUtilities.IsPathPossible(node1, node2))
+                        {
+                            status = 1;
+                        }
+                    }
+                    debounce = false;
+                }
                 break;
             case 1:
                 if (!debounce)
                 {
                     debounce = true;
-                    if (body.velocity == Vector2.zero)
+                    if (_aiPath.velocity == Vector3.zero)
                     {
                         if (targetAttack == null)
                         {
                             targetAttack = Structures.GetNearest(transform.position);
+
                             delta = 0f;
+
 
                         }
                         if (targetAttack != null && delta >= 1f)
                         {
                             HealthHandler _health = targetAttack.GetComponent<HealthHandler>();
-                            _health.TakeDamage(Damage);
+                            _health.TakeDamage(gameObject, Damage);
                             delta = 0f;
                         }
 
                     }
                     debounce = false;
                 }
+                break;
+            default:
                 break;
 
         }

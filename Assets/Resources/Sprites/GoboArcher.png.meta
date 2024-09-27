@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 5adf8ddd7b0cc4d4d9790f89f0065934
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5344017726668590881
+    second: GoboArcher_0
+  - first:
+      213: 6224870357621259225
+    second: GoboArcher_1
+  - first:
+      213: -8365602699231467347
+    second: GoboArcher_2
+  - first:
+      213: 4700243511869881958
+    second: GoboArcher_3
+  - first:
+      213: -7411356848607697072
+    second: GoboArcher_4
+  - first:
+      213: -5688061175624430382
+    second: GoboArcher_5
+  - first:
+      213: 6534751024069296008
+    second: GoboArcher_6
+  - first:
+      213: -6681614200908641496
+    second: GoboArcher_7
+  - first:
+      213: 7857133427149393576
+    second: GoboArcher_8
+  - first:
+      213: -7559202852887270412
+    second: GoboArcher_9
+  - first:
+      213: 2634870030139122230
+    second: GoboArcher_10
+  - first:
+      213: 7242022167130168947
+    second: GoboArcher_11
+  - first:
+      213: -3472251157109258560
+    second: GoboArcher_12
+  - first:
+      213: -4883123511498233564
+    second: GoboArcher_13
+  - first:
+      213: -9215297060976452943
+    second: GoboArcher_14
+  - first:
+      213: 1113300852113531474
+    second: GoboArcher_15
+  - first:
+      213: 4769604232468955015
+    second: GoboArcher_16
+  - first:
+      213: -9136635953622365498
+    second: GoboArcher_17
+  - first:
+      213: 119008064905019636
+    second: GoboArcher_18
+  - first:
+      213: -799998968901828142
+    second: GoboArcher_19
+  - first:
+      213: -673765712976891086
+    second: GoboArcher_20
+  - first:
+      213: -3314242760113441622
+    second: GoboArcher_21
+  - first:
+      213: 5836966039566313538
+    second: GoboArcher_22
+  - first:
+      213: -4273329049153040008
+    second: GoboArcher_23
+  - first:
+      213: -6904877747014168887
+    second: GoboArcher_24
+  - first:
+      213: -8877061690579740946
+    second: GoboArcher_25
+  - first:
+      213: 5775080295005564921
+    second: GoboArcher_26
+  - first:
+      213: -8544889758328840674
+    second: GoboArcher_27
+  - first:
+      213: 1372765792184720716
+    second: GoboArcher_28
+  - first:
+      213: 5193473010832149666
+    second: GoboArcher_29
+  - first:
+      213: -7700449380256261276
+    second: GoboArcher_30
+  - first:
+      213: -1919768571481649058
+    second: GoboArcher_31
+  - first:
+      213: 3405004122422801577
+    second: GoboArcher_32
+  - first:
+      213: 4843230290046591366
+    second: GoboArcher_33
+  - first:
+      213: 3383155384595392513
+    second: GoboArcher_34
+  - first:
+      213: -4073879121228193250
+    second: GoboArcher_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GoboArcher_0
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 392
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fc87ffec3c92a40800000000000000
+      internalID: 5344017726668590881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_1
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 392
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbbfd60c9e236650800000000000000
+      internalID: 6224870357621259225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_2
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 391
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8624cfaa867eb80800000000000000
+      internalID: -8365602699231467347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_3
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 390
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66eb6d2329e9a3140800000000000000
+      internalID: 4700243511869881958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_4
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 391
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05764179632952990800000000000000
+      internalID: -7411356848607697072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_5
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 392
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc07365f72ff01b0800000000000000
+      internalID: -5688061175624430382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_6
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 391
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f354d0f6910ba50800000000000000
+      internalID: 6534751024069296008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_7
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 390
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b82a4f8432643a0800000000000000
+      internalID: -6681614200908641496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_8
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 391
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae461e19352a0d60800000000000000
+      internalID: 7857133427149393576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_9
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 327
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbe8804e01581790800000000000000
+      internalID: -7559202852887270412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_10
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 327
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632e3cf0550f09420800000000000000
+      internalID: 2634870030139122230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_11
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 328
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e5c478ac4d08460800000000000000
+      internalID: 7242022167130168947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 328
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6409928f510dfc0800000000000000
+      internalID: -3472251157109258560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_13
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 327
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4292ac6c909ab3cb0800000000000000
+      internalID: -4883123511498233564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_14
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 327
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba1cc4d520bc1080800000000000000
+      internalID: -9215297060976452943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_15
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 327
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252ed5af93d337f00800000000000000
+      internalID: 1113300852113531474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_16
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 327
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ff28b67c9013240800000000000000
+      internalID: 4769604232468955015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_17
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 327
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cac6461206243180800000000000000
+      internalID: -9136635953622365498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_18
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 263
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0021a543dc6a100800000000000000
+      internalID: 119008064905019636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_19
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 263
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d18de52d25d5e4f0800000000000000
+      internalID: -799998968901828142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_20
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 262
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233bc2067ad46a6f0800000000000000
+      internalID: -673765712976891086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_21
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 262
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa43700f4c17102d0800000000000000
+      internalID: -3314242760113441622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_22
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 262
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2486e5affa1110150800000000000000
+      internalID: 5836966039566313538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_23
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 263
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87110e0fed512b4c0800000000000000
+      internalID: -4273329049153040008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_24
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 262
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce88bfc542fc20a0800000000000000
+      internalID: -6904877747014168887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_25
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 262
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee614c3dc675ec480800000000000000
+      internalID: -8877061690579740946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_26
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 262
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff2a2d3ee4352050800000000000000
+      internalID: 5775080295005564921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_27
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 199
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e9fed99047a6980800000000000000
+      internalID: -8544889758328840674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_28
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 199
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d5afaf63b0d0310800000000000000
+      internalID: 1372765792184720716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_29
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 200
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac8a39ef2ce21840800000000000000
+      internalID: 5193473010832149666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_30
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 200
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bd2fe5612822590800000000000000
+      internalID: -7700449380256261276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_31
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 199
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5090e5d7ac9b55e0800000000000000
+      internalID: -1919768571481649058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_32
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 199
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a470c77531014f20800000000000000
+      internalID: 3405004122422801577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_33
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 199
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681a3abc94c963340800000000000000
+      internalID: 4843230290046591366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_34
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 199
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10822c6c5e163fe20800000000000000
+      internalID: 3383155384595392513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoboArcher_35
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 199
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e122059068ca677c0800000000000000
+      internalID: -4073879121228193250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

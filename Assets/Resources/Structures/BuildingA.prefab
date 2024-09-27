@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1222788698604077091}
   - component: {fileID: -6380065951576945100}
   - component: {fileID: 8698928305132415245}
+  - component: {fileID: -5023346970762636919}
   m_Layer: 6
   m_Name: BuildingA
   m_TagString: Structure
@@ -100,11 +101,13 @@ MonoBehaviour:
   SID: 1
   StructureName: Building Alpha
   Description: A Wall of blocking
-  GoldCost: 10
+  GoldCost: 1
   CanAttack: 0
-  Damage: 0
+  MaxDamage: 0
+  MinDamage: 0
   Range: 0
   AttackSpeed: 0
+  Shoots: {fileID: 0}
 --- !u!114 &-6380065951576945100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,3 +147,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.79, y: 0.79}
   m_EdgeRadius: 0
+--- !u!114 &-5023346970762636919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222788698604077090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc35dbb4042520a4b9787d5d66d3b634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionAsset: {fileID: -944628639613478452, guid: 63f93a27150710949a92002c5d37bb27, type: 3}

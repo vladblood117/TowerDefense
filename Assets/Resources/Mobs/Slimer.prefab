@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 8912106559797185603}
   - component: {fileID: 4116329535248549208}
   - component: {fileID: 2601139455291526041}
-  - component: {fileID: 2585273001932421048}
   - component: {fileID: 7185292773382925593}
   m_Layer: 3
   m_Name: Slimer
@@ -116,7 +115,12 @@ MonoBehaviour:
   MobName: Slimer
   MoveSpeed: 40
   Damage: 10
-  speed: 100
+  MaxSpeed: 1
+  MinSpeed: 0.5
+  MaxGold: 4
+  MinGold: 1
+  _mobId: 1
+  speed: 1
   nextWaypointDistance: 3
   repathRate: 0.5
 --- !u!114 &4116329535248549208
@@ -177,28 +181,12 @@ MonoBehaviour:
   maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 0.71
-  pickNextWaypointDist: 0.46
+  pickNextWaypointDist: 0.35
   endReachedDistance: 0.2
   alwaysDrawGizmos: 1
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
---- !u!58 &2585273001932421048
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1920397813583471676}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.44090807
 --- !u!50 &7185292773382925593
 Rigidbody2D:
   serializedVersion: 4

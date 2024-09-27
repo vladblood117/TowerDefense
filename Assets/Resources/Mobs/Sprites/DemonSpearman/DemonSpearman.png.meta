@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 129fa0c4e86ab804cbf1fdb0696fc892
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4174926051593052390
+    second: DemonSpearman_0
+  - first:
+      213: 8027721448178320154
+    second: DemonSpearman_1
+  - first:
+      213: 9213984650450180065
+    second: DemonSpearman_2
+  - first:
+      213: -1364646338606701289
+    second: DemonSpearman_3
+  - first:
+      213: 1904468697923137728
+    second: DemonSpearman_4
+  - first:
+      213: -1361726999610433397
+    second: DemonSpearman_5
+  - first:
+      213: -1198853795536971940
+    second: DemonSpearman_6
+  - first:
+      213: -5942823846873622934
+    second: DemonSpearman_7
+  - first:
+      213: -7267886904386855579
+    second: DemonSpearman_8
+  - first:
+      213: 2911272965595918827
+    second: DemonSpearman_9
+  - first:
+      213: -6982210102911344734
+    second: DemonSpearman_10
+  - first:
+      213: -8648673099037067875
+    second: DemonSpearman_11
+  - first:
+      213: -3854082650531101100
+    second: DemonSpearman_12
+  - first:
+      213: -2764311733624008869
+    second: DemonSpearman_13
+  - first:
+      213: -6021011090959493875
+    second: DemonSpearman_14
+  - first:
+      213: -8995183788057454297
+    second: DemonSpearman_15
+  - first:
+      213: 2149763169652968385
+    second: DemonSpearman_16
+  - first:
+      213: 6140422780263353096
+    second: DemonSpearman_17
+  - first:
+      213: 8375904633453461569
+    second: DemonSpearman_18
+  - first:
+      213: 3857714152205253773
+    second: DemonSpearman_19
+  - first:
+      213: 6711034815391367248
+    second: DemonSpearman_20
+  - first:
+      213: 1859864949260762043
+    second: DemonSpearman_21
+  - first:
+      213: -8454293188508983623
+    second: DemonSpearman_22
+  - first:
+      213: 9115055205197185068
+    second: DemonSpearman_23
+  - first:
+      213: 1387975950649023117
+    second: DemonSpearman_24
+  - first:
+      213: 383398773969326202
+    second: DemonSpearman_25
+  - first:
+      213: 9118210019196675397
+    second: DemonSpearman_26
+  - first:
+      213: 2830382807631443033
+    second: DemonSpearman_27
+  - first:
+      213: 7011287115247431656
+    second: DemonSpearman_28
+  - first:
+      213: -1312192734222536018
+    second: DemonSpearman_29
+  - first:
+      213: 7861454061309260067
+    second: DemonSpearman_30
+  - first:
+      213: -7516710446777744710
+    second: DemonSpearman_31
+  - first:
+      213: -4448372538645604231
+    second: DemonSpearman_32
+  - first:
+      213: 7048367990991066680
+    second: DemonSpearman_33
+  - first:
+      213: 6798798876986824961
+    second: DemonSpearman_34
+  - first:
+      213: 6091251263655396757
+    second: DemonSpearman_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DemonSpearman_0
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 522
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e06abccf1150f930800000000000000
+      internalID: 4174926051593052390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_1
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 522
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13047adf12386f60800000000000000
+      internalID: 8027721448178320154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_2
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 521
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e71cf7c836aedf70800000000000000
+      internalID: 9213984650450180065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_3
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 520
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7156f4f926dcf0de0800000000000000
+      internalID: -1364646338606701289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_4
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 521
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c03f81c0380e6a10800000000000000
+      internalID: 1904468697923137728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_5
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 522
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b806923328c2a1de0800000000000000
+      internalID: -1361726999610433397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_6
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 521
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57d36323d0dc5fe0800000000000000
+      internalID: -1198853795536971940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_7
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 520
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66906c9239d68da0800000000000000
+      internalID: -5942823846873622934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_8
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 521
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dde4c0e57432b90800000000000000
+      internalID: -7267886904386855579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_9
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 457
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1fa8e665be66820800000000000000
+      internalID: 2911272965595918827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_10
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 457
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af53dc97e43a1f90800000000000000
+      internalID: -6982210102911344734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_11
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 458
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d953b6993adb9f780800000000000000
+      internalID: -8648673099037067875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_12
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 458
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4560918cf3c838ac0800000000000000
+      internalID: -3854082650531101100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_13
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 457
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f85eccf1133a9d0800000000000000
+      internalID: -2764311733624008869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_14
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 457
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d051cae3052117ca0800000000000000
+      internalID: -6021011090959493875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_15
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 457
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7299b77d000ba2380800000000000000
+      internalID: -8995183788057454297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_16
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 457
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb026e763e75dd10800000000000000
+      internalID: 2149763169652968385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_17
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 457
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b405c3cf9273550800000000000000
+      internalID: 6140422780263353096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_18
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 392
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140ca8df2e03d3470800000000000000
+      internalID: 8375904633453461569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_19
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 392
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cf037159a598530800000000000000
+      internalID: 3857714152205253773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_20
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 392
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0508ea6ab92622d50800000000000000
+      internalID: 6711034815391367248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_21
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 392
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb33ee31519fc910800000000000000
+      internalID: 1859864949260762043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 392
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bedae743215caa80800000000000000
+      internalID: -8454293188508983623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_23
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 392
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c208add5a6e2f7e70800000000000000
+      internalID: 9115055205197185068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_24
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 392
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a5837f5c4134310800000000000000
+      internalID: 1387975950649023117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_25
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 392
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7013c1572b125500800000000000000
+      internalID: 383398773969326202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_26
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 392
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54520adb3b36a8e70800000000000000
+      internalID: 9118210019196675397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_27
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 329
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954be33ea2a874720800000000000000
+      internalID: 2830382807631443033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_28
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 329
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efa892eb781d4160800000000000000
+      internalID: 7011287115247431656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_29
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 330
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea231d719a72acde0800000000000000
+      internalID: -1312192734222536018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_30
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 330
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321f36621de791d60800000000000000
+      internalID: 7861454061309260067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_31
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 329
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab248548ca74fa790800000000000000
+      internalID: -7516710446777744710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_32
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 329
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9781d6d9eb43442c0800000000000000
+      internalID: -4448372538645604231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_33
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 329
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836914d0855d0d160800000000000000
+      internalID: 7048367990991066680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_34
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 329
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109df1a9e8f2a5e50800000000000000
+      internalID: 6798798876986824961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DemonSpearman_35
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 329
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59544df50c8788450800000000000000
+      internalID: 6091251263655396757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

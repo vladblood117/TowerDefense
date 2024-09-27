@@ -13,6 +13,7 @@ public class Buildings : MonoBehaviour
     private RectTransform contentRT;
     private Structures _build;
     [SerializeField] GameObject BuildingButton;
+    public bool Follow { get { return _follow; } }
     // Start is called before the first frame update
     void Start()
     {
@@ -31,17 +32,21 @@ public class Buildings : MonoBehaviour
         var mouse = Mouse.current;
         if (_follow)
         {
-            print("Following");
             Vector3 pos = Camera.main.ScreenToWorldPoint((Vector3)mouse.position.ReadValue() + (Vector3.forward * 10));
-            _build.gameObject.transform.position = pos;
             var sr = _build.gameObject.GetComponent<SpriteRenderer>();
-            sr.sortingOrder = 1;
+            sr.sortingOrder = 5;
             var hover = false;
             Vector3Int vci = Vector3Int.FloorToInt(pos);
+            _build.gameObject.transform.position = vci + new Vector3(0.5f, 0.5f, 0f);
+
             if (GridManager.APMap.HasTile(vci))
             {
                 hover = GridManager.APMap.GetTile(vci);
                 sr.color = Color.white;
+            }
+            else if (Structures.collectionMap.ContainsKey(vci))
+            {
+                sr.color = Color.red;
             }
             else
             {
@@ -49,14 +54,27 @@ public class Buildings : MonoBehaviour
             }
             if (mouse.leftButton.wasPressedThisFrame)
             {
-                if (hover)
+                if (_plr.Currency.Gold < _build.GoldCost)
+                {
+                    sr.color = Color.red;
+                }
+                else
                 {
 
-                    _plr.Currency.RemoveGold(10);
-                    _build.PlaceStructure(vci);
-                    _follow = false;
-                    _build = null;
+                    sr.color = Color.white;
+                    if (hover)
+                    {
+
+                        _plr.Currency.RemoveGold(_build.GoldCost);
+                        _build.PlaceStructure(_plr, vci);
+                    }
                 }
+            }
+            else if (mouse.rightButton.wasPressedThisFrame)
+            {
+                Destroy(_build.gameObject);
+                _build = null;
+                _follow = false;
             }
 
         }
@@ -65,7 +83,6 @@ public class Buildings : MonoBehaviour
     }
     public void Test(Structures obj)
     {
-        print("I'm coding mom!");
         if (_plr.Currency.Gold >= obj.GoldCost)
         {
             _build = Structures.NewStructure(obj);
@@ -85,7 +102,10 @@ public class Buildings : MonoBehaviour
         {
             var v = Instantiate(BuildingButton);
             var btn = v.transform.GetChild(0).GetComponent<Button>();
+
             var builder = AllBuildings.Buildings[_allowedBuildings[i]];
+            var img = btn.GetComponent<Image>();
+            img.sprite = builder.gameObject.GetComponent<SpriteRenderer>().sprite;
             btn.onClick.AddListener(() => Test(builder));
             v.transform.SetParent(ContentGui.transform);
             v.transform.localScale = new Vector3(1, 1, 1);

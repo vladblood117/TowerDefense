@@ -2,23 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.InputSystem;
 
-public class Structures : MonoBehaviour
+public class Structures : TDSystem
 {
-    // Start is called before the first frame update
-    public static int ID = 3;
+    // Start is called before the first frame update 
+
     [SerializeField] public int SID;
     [SerializeField] public string StructureName;
     [SerializeField] public string Description;
     [SerializeField] public int GoldCost;
     [SerializeField] public bool CanAttack;
     //IF CanAttack
-    [SerializeField] public int Damage;
+    [SerializeField] public int MaxDamage;
+    [SerializeField] public int MinDamage;
     [SerializeField] public float Range;
     [SerializeField] public int AttackSpeed;
+    [SerializeField] public GameObject Shoots;
     //ENDIF
     public static int currentScan = 1;
-    public static Dictionary<int, GameObject> collection = new Dictionary<int, GameObject>();
+    public static Dictionary<int, Structures> collection = new Dictionary<int, Structures>();
+    public static Dictionary<Vector3Int, int> collectionMap = new Dictionary<Vector3Int, int>();
     private HealthHandler _health;
     private int strutId;
     private bool placed = false;
@@ -28,7 +32,13 @@ public class Structures : MonoBehaviour
     private bool debounce;
     private float delta;
     private GameObject _enemy;
+    private Material _defaultMaterial;
+    private PlayerHandler _player;
+    public PlayerHandler Player { get { return _player; } }
 
+    public Material DefaultMaterial { get { return _defaultMaterial; } }
+
+    public bool IsPlaced { get { return placed; } }
     void Start()
     {
         debounce = false;
@@ -37,6 +47,7 @@ public class Structures : MonoBehaviour
         _method = DeathMethod;
         _health.RegisterDeathMethod(_method);
         _collider = this.gameObject.GetComponent<BoxCollider2D>();
+
     }
 
     IEnumerator RescanGraph()
@@ -46,11 +57,11 @@ public class Structures : MonoBehaviour
         currentScan++;
         yield return new WaitForSeconds(.5f);
     }
-    private void DeathMethod()
+    private void DeathMethod(GameObject source)
     {
 
         var vci = Vector3Int.FloorToInt(transform.position);
-        //  GridManager.APMap.SetTile(vci, (Tile)Resources.Load("Tilemap/TDBlank"));
+        GridManager.APMap.SetTile(vci, (Tile)Resources.Load("Tilemap/TDBlank"));
         //  GridManager.ObMap.SetTile(vci, null);
         collection.Remove(strutId);
         Destroy(gameObject);
@@ -61,43 +72,73 @@ public class Structures : MonoBehaviour
     public static Structures NewStructure(Structures strut)
     {
         GameObject obj = (GameObject)Instantiate(strut.gameObject) as GameObject;
-        var indx = StructureIndex + 1;
-        StructureIndex++;
-        collection[indx] = obj;
+
         var s = obj.GetComponent<Structures>();
-        s.strutId = indx;
         return s;
     }
     public static GameObject GetNearest(Vector3 Position)
     {
         GameObject obj = null;
+        var distance = 0f;
         foreach (var v in collection.Values)
         {
-            if ((v.transform.position - Position).magnitude <= 1.5f)
+            if (v != null && v.placed)
             {
-                obj = v;
-                break;
-            }
 
+                if (obj != null)
+                {
+                    var magA = (v.gameObject.transform.position - Position).magnitude;
+                    var magB = (obj.transform.position - Position).magnitude;
+                    if (magA < magB)
+                    {
+                        obj = v.gameObject;
+                    }
+                }
+                var mag = (v.gameObject.transform.position - Position).magnitude;
+
+                if (mag <= 1.5f)
+                {
+
+                    obj = v.gameObject;
+                    distance = mag;
+                }
+            }
         }
 
         return obj;
     }
 
-    public void PlaceStructure(Vector3Int vci)
-    {
-        transform.position = (Vector3)vci + new Vector3(0.5f, 0.5f, 0f);
-        //  GridManager.APMap.SetTile(vci, null);
-        //  GridManager.ObMap.SetTile(vci, (Tile)Resources.Load("Tilemap/TDBlank"));
-        StructurePlaced();
-    }
     //---------Dynamic Functions
-    public void StructurePlaced()
-    {
 
-        this._collider.enabled = true;
-        placed = true;
-        StartCoroutine(RescanGraph());
+    public void SetOwner(PlayerHandler plr) { _player = plr; }
+
+    public void PlaceStructure(PlayerHandler requster, Vector3Int vci)
+    {
+        var clone = Instantiate(this.gameObject);
+        clone.transform.position = (Vector3)vci + new Vector3(0.5f, 0.5f, 0f);
+        GridManager.APMap.SetTile(vci, null);
+        //  GridManager.ObMap.SetTile(vci, (Tile)Resources.Load("Tilemap/TDBlank"));
+        var cthis = clone.GetComponent<Structures>();
+
+        if (cthis != null)
+        {
+            var indx = StructureIndex + 1;
+            StructureIndex++;
+            cthis.strutId = indx;
+            collection[indx] = cthis;
+            collectionMap[vci] = indx;
+            cthis.gameObject.GetComponent<BoxCollider2D>().enabled = true;
+            cthis.placed = true;
+            cthis.SetOwner(requster);
+            var sr = cthis.gameObject.GetComponent<SpriteRenderer>();
+            cthis._defaultMaterial = sr.material;
+            sr.sortingOrder = 2;
+            StartCoroutine(RescanGraph());
+        }
+        else
+        {
+            Debug.Log("Not found!");
+        }
     }
 
     void Update()
@@ -110,25 +151,21 @@ public class Structures : MonoBehaviour
                 debounce = true;
                 if (delta >= AttackSpeed)
                 {
-                    print(delta);
                     delta = 0f;
                     if (!_enemy)
                     {
-                        Debug.Log("Set enemy");
                         _enemy = getEnemy();
                     }
                     if (InRange(_enemy))
                     {
-                        Debug.Log("Enemy in range, attack!");
-                        Attack(_enemy);
+                        Attack();
                     }
                     else
                     {
-                        Debug.Log("They left range, find a new one and... attack!");
                         _enemy = getEnemy();
                         if (_enemy)
                         {
-                            Attack(_enemy);
+                            Attack();
                         }
 
                     }
@@ -154,16 +191,23 @@ public class Structures : MonoBehaviour
         }
         return val;
     }
-
-    private void Attack(GameObject _enemy)
+    public void Reclaim()
     {
-        HealthHandler h = _enemy.GetComponent<HealthHandler>();
-        h.TakeDamage(Damage);
-        Debug.Log("pew pew!");
-        if (!_enemy)
-        {
-            Debug.Log("Enemy is dead");
-        }
+        _player.Currency.AddGold(Mathf.FloorToInt(GoldCost * .3f));
+        var vci = Vector3Int.FloorToInt(transform.position);
+        GridManager.APMap.SetTile(vci, (Tile)Resources.Load("Tilemap/TDBlank"));
+        //  GridManager.ObMap.SetTile(vci, null);
+        collection.Remove(strutId);
+        Destroy(gameObject);
+    }
+    private void Attack()
+    {
+        var shoot = Instantiate(Shoots).GetComponent<Projectiles>();
+        shoot.transform.position = transform.position;
+        shoot.SetOwner(_player);
+        shoot.SetTarget(_enemy);
+        shoot.SetDamage(Random.Range(MinDamage, MaxDamage));
+        shoot.Fire();
     }
 
     private GameObject getEnemy()
@@ -177,10 +221,8 @@ public class Structures : MonoBehaviour
                 if (mag <= Range)
                 {
                     enemy = v;
-                    if (mag <= 3f)
-                    {
-                        break;
-                    }
+
+                    break;
                 }
             }
         }
